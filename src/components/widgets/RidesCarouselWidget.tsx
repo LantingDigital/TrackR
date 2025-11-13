@@ -119,14 +119,14 @@ export const RidesCarouselWidget: React.FC<RidesCarouselWidgetProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: 16,
+    marginBottom: 24,
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
-    marginBottom: 12,
+    marginBottom: 16,
   },
   scrollContent: {
     paddingHorizontal: 16,

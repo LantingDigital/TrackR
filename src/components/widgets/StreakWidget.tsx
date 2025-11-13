@@ -40,52 +40,38 @@ export const StreakWidget: React.FC<StreakWidgetProps> = ({
       accessibilityHint="View game details"
     >
       <View style={styles.content}>
-        {/* Streak Counter */}
-        <View style={styles.streakSection}>
-          <View style={[styles.streakBadge, { backgroundColor: theme.colors.primary.orange + '20' }]}>
-            <Text style={styles.streakEmoji}>🔥</Text>
-            <Text variant="title2" color="primary" style={styles.streakNumber}>
-              {currentStreak}
-            </Text>
-          </View>
-          <Text variant="footnote" color="secondary">
-            Day Streak
+        {/* Header */}
+        <View style={styles.header}>
+          <Text variant="headline" color="primary" style={styles.title}>
+            Daily Games
+          </Text>
+          <Text variant="caption1" color="tertiary" style={styles.streakText}>
+            Streak: {currentStreak} 🔥
           </Text>
         </View>
 
-        {/* Games Progress */}
-        <View style={styles.gamesSection}>
-          <View style={styles.gamesHeader}>
-            <Text variant="callout" color="primary" style={styles.gamesTitle}>
-              Daily Games
-            </Text>
-            <Text variant="caption1" color="tertiary">
-              {completedCount}/{totalCount}
-            </Text>
-          </View>
-
-          <View style={styles.gameIcons}>
-            {games.map((game, index) => (
-              <View
-                key={index}
-                style={[
-                  styles.gameIcon,
-                  {
-                    backgroundColor: game.completed
-                      ? theme.colors.primary.blue + '30'
-                      : theme.colors.background.tertiary,
-                  },
-                ]}
-              >
-                <Text style={{
-                  fontSize: 18,
-                  opacity: game.completed ? 1 : 0.4
-                }}>
-                  {game.icon}
-                </Text>
-              </View>
-            ))}
-          </View>
+        {/* Game Icons Row */}
+        <View style={styles.gameIcons}>
+          {games.map((game, index) => (
+            <View
+              key={index}
+              style={[
+                styles.gameIcon,
+                {
+                  backgroundColor: game.completed
+                    ? theme.colors.primary.blue + '30'
+                    : theme.colors.background.tertiary,
+                },
+              ]}
+            >
+              <Text style={{
+                fontSize: 32,
+                opacity: game.completed ? 1 : 0.4
+              }}>
+                {game.icon}
+              </Text>
+            </View>
+          ))}
         </View>
       </View>
     </Widget>
@@ -94,56 +80,31 @@ export const StreakWidget: React.FC<StreakWidgetProps> = ({
 
 const styles = StyleSheet.create({
   widget: {
-    padding: 16,
+    padding: 20,
     alignItems: 'stretch',
   },
   content: {
     width: '100%',
-    flexDirection: 'row',
     gap: 16,
   },
-  streakSection: {
-    alignItems: 'center',
-    justifyContent: 'center',
+  header: {
     gap: 4,
   },
-  streakBadge: {
-    width: 64,
-    height: 64,
-    borderRadius: 16,
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-  },
-  streakEmoji: {
-    fontSize: 16,
-    position: 'absolute',
-    top: 8,
-    right: 8,
-  },
-  streakNumber: {
+  title: {
     fontWeight: '700',
   },
-  gamesSection: {
-    flex: 1,
-    gap: 8,
-  },
-  gamesHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  gamesTitle: {
-    fontWeight: '600',
+  streakText: {
+    fontSize: 12,
   },
   gameIcons: {
     flexDirection: 'row',
+    justifyContent: 'space-between',
     gap: 8,
   },
   gameIcon: {
-    width: 40,
-    height: 40,
-    borderRadius: 10,
+    flex: 1,
+    aspectRatio: 1,
+    borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
   },

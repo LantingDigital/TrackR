@@ -105,16 +105,18 @@ export const HomeScreen: React.FC = () => {
         </View>
 
         {/* Streak & Games Tracker */}
-        <StreakWidget
-          currentStreak={7}
-          games={[
-            { name: 'Coastle', completed: true, icon: '🎢' },
-            { name: 'Trivia', completed: true, icon: '❓' },
-            { name: 'Cards', completed: false, icon: '🃏' },
-            { name: 'Blackjack', completed: false, icon: '🎰' },
-          ]}
-          onPress={handleGamesPress}
-        />
+        <View style={styles.section}>
+          <StreakWidget
+            currentStreak={7}
+            games={[
+              { name: 'Coastle', completed: true, icon: '🎢' },
+              { name: 'Trivia', completed: true, icon: '❓' },
+              { name: 'Cards', completed: false, icon: '🃏' },
+              { name: 'Blackjack', completed: false, icon: '🎰' },
+            ]}
+            onPress={handleGamesPress}
+          />
+        </View>
 
         {/* Last Logged Rides Carousel */}
         <RidesCarouselWidget
@@ -201,10 +203,10 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     padding: 16,
-    paddingBottom: 32,
+    paddingBottom: 40,
   },
   header: {
-    marginBottom: 24,
+    marginBottom: 32,
   },
   subtitle: {
     marginTop: 8,
@@ -213,8 +215,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
+    marginBottom: 32,
+    gap: 8,
+  },
+  section: {
     marginBottom: 24,
-    gap: 12,
   },
   footer: {
     marginTop: 24,

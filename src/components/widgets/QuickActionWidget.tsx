@@ -32,16 +32,16 @@ export const QuickActionWidget: React.FC<QuickActionWidgetProps> = ({
   return (
     <Widget
       onPress={onPress}
-      aspectRatio={16 / 9}
+      aspectRatio={3 / 2}
       style={styles.widget}
       accessibilityLabel={accessibilityLabel || title}
       accessibilityHint={accessibilityHint}
     >
       <View style={styles.content}>
         <View style={[styles.iconContainer, { backgroundColor: color + '20' }]}>
-          <Text style={{ fontSize: 20, color }}>{icon}</Text>
+          <Text style={{ fontSize: 32, color }}>{icon}</Text>
         </View>
-        <Text variant="callout" color="primary" style={styles.title}>
+        <Text variant="headline" color="primary" style={styles.title}>
           {title}
         </Text>
       </View>
@@ -52,18 +52,18 @@ export const QuickActionWidget: React.FC<QuickActionWidgetProps> = ({
 const styles = StyleSheet.create({
   widget: {
     width: '48%', // Two columns with gap
-    padding: 12,
+    padding: 16,
     justifyContent: 'center',
     alignItems: 'flex-start',
   },
   content: {
     width: '100%',
-    gap: 8,
+    gap: 12,
   },
   iconContainer: {
-    width: 40,
-    height: 40,
-    borderRadius: 12,
+    width: 56,
+    height: 56,
+    borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
   },
