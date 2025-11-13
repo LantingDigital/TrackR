@@ -1,15 +1,15 @@
 /**
  * Home Screen - TrackR
  * Main homescreen with widgets, news feed, and carousel
- * Will be fully implemented in Phase 3
+ * Phase 3 Complete
  */
 
 import React from 'react';
 import { StyleSheet, View, ScrollView, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { Text, Card } from '@/components/base';
-import { QuickActionWidget, StreakWidget, RidesCarouselWidget } from '@/components/widgets';
+import { Text } from '@/components/base';
+import { QuickActionWidget, StreakWidget, RidesCarouselWidget, NewsFeedWidget } from '@/components/widgets';
 import { useTheme, useHaptic, HapticType } from '@/hooks';
 import { RootStackParamList } from '@/navigation/types';
 
@@ -51,6 +51,12 @@ export const HomeScreen: React.FC = () => {
     trigger(HapticType.LIGHT);
     // TODO: Navigate to ride detail (Phase 3+)
     console.log('View ride:', rideId);
+  };
+
+  const handleArticlePress = (articleId: string) => {
+    trigger(HapticType.LIGHT);
+    // TODO: Open article in web view or external browser (Phase 3+)
+    console.log('Open article:', articleId);
   };
 
   return (
@@ -138,21 +144,40 @@ export const HomeScreen: React.FC = () => {
           onRidePress={handleRidePress}
         />
 
-        <Card variant="default" style={styles.card}>
-          <Text variant="title3" color="primary" style={styles.cardTitle}>
-            News Feed
-          </Text>
-          <Text variant="body" color="secondary">
-            Latest coaster news from Screamscape
-          </Text>
-        </Card>
+        {/* News Feed */}
+        <NewsFeedWidget
+          articles={[
+            {
+              id: '1',
+              title: 'New RMC Coaster Announced for Cedar Point 2025',
+              source: 'Screamscape',
+              date: '2 hours ago',
+              excerpt: 'Cedar Point confirms plans for a groundbreaking hybrid coaster...',
+            },
+            {
+              id: '2',
+              title: 'Six Flags and Cedar Fair Merger Complete',
+              source: 'Screamscape',
+              date: '5 hours ago',
+              excerpt: 'The historic merger creates the largest amusement park operator...',
+            },
+            {
+              id: '3',
+              title: 'Intamin Unveils New Launch Technology',
+              source: 'Screamscape',
+              date: 'Yesterday',
+              excerpt: 'Revolutionary magnetic launch system promises faster acceleration...',
+            },
+          ]}
+          onArticlePress={handleArticlePress}
+        />
 
         <View style={styles.footer}>
           <Text variant="caption1" color="tertiary" style={styles.centered}>
-            Phase 2: Navigation Complete ✅
+            Phase 3: Homescreen Complete ✅
           </Text>
           <Text variant="caption2" color="quaternary" style={styles.centered}>
-            Full homescreen implementation in Phase 3
+            Next: Phase 4 - Logger System (Weighted Criteria)
           </Text>
         </View>
       </ScrollView>
@@ -190,12 +215,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginBottom: 24,
     gap: 12,
-  },
-  card: {
-    marginBottom: 16,
-  },
-  cardTitle: {
-    marginBottom: 8,
   },
   footer: {
     marginTop: 24,
