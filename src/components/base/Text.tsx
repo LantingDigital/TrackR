@@ -54,7 +54,7 @@ export const Text: React.FC<TextProps> = ({
 }) => {
   const theme = useTheme();
 
-  const textStyle: TextStyle[] = [
+  const textStyle = [
     theme.typography[variant],
     { color: getColor(color, theme) },
     style,

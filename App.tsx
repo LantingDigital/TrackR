@@ -121,9 +121,11 @@ export default function App() {
           </Card>
 
           {/* Cards Showcase */}
-          <Text variant="title3" color="primary" style={[styles.sectionTitle, styles.marginTop]}>
-            Card Variants
-          </Text>
+          <View style={styles.marginTop}>
+            <Text variant="title3" color="primary" style={styles.sectionTitle}>
+              Card Variants
+            </Text>
+          </View>
 
           <Card variant="elevated" onPress={handleButtonPress}>
             <Text variant="headline" color="primary">

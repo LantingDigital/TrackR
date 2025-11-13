@@ -89,7 +89,7 @@ export const Card: React.FC<CardProps> = ({
     };
   });
 
-  const containerStyle: ViewStyle[] = [
+  const containerStyle = [
     styles.base,
     variantStyles(theme)[variant],
     style,

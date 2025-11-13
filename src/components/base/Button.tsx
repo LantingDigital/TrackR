@@ -94,7 +94,7 @@ export const Button: React.FC<ButtonProps> = ({
   });
 
   // Variant styles
-  const containerStyle: ViewStyle[] = [
+  const containerStyle = [
     styles.base,
     sizeStyles[size],
     variantStyles(theme)[variant].container,
@@ -103,7 +103,7 @@ export const Button: React.FC<ButtonProps> = ({
     style,
   ];
 
-  const textStyle: TextStyle[] = [
+  const textStyle = [
     styles.text,
     variantStyles(theme)[variant].text,
     disabled && styles.disabledText,
