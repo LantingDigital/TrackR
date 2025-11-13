@@ -9,6 +9,7 @@ import { StyleSheet, View, ScrollView, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Text, Card } from '@/components/base';
+import { QuickActionWidget } from '@/components/widgets';
 import { useTheme, useHaptic, HapticType } from '@/hooks';
 import { RootStackParamList } from '@/navigation/types';
 
@@ -24,6 +25,28 @@ export const HomeScreen: React.FC = () => {
     navigation.navigate('Logger');
   };
 
+  const handleSearchPress = () => {
+    trigger(HapticType.MEDIUM);
+    // TODO: Navigate to search screen (Phase 3+)
+    console.log('Search coasters');
+  };
+
+  const handleWalletPress = () => {
+    trigger(HapticType.MEDIUM);
+    navigation.navigate('Wallet');
+  };
+
+  const handleStatsPress = () => {
+    trigger(HapticType.MEDIUM);
+    // TODO: Navigate to stats screen (Phase 3+)
+    console.log('View stats');
+  };
+
+  const handleGamesPress = () => {
+    trigger(HapticType.MEDIUM);
+    navigation.navigate('GamesHub');
+  };
+
   return (
     <View style={[styles.container, { backgroundColor: theme.colors.background.primary }]}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
@@ -37,15 +60,37 @@ export const HomeScreen: React.FC = () => {
           </Text>
         </View>
 
-        {/* Placeholder Cards */}
-        <Card variant="elevated" style={styles.card}>
-          <Text variant="title3" color="primary" style={styles.cardTitle}>
-            Quick Actions
-          </Text>
-          <Text variant="body" color="secondary">
-            4 widgets will appear here (2×2 grid)
-          </Text>
-        </Card>
+        {/* Quick Actions - 2×2 Grid */}
+        <View style={styles.widgetGrid}>
+          <QuickActionWidget
+            title="Log Ride"
+            icon="📝"
+            color={theme.colors.primary.blue}
+            onPress={handleLogPress}
+            accessibilityHint="Log a new roller coaster ride"
+          />
+          <QuickActionWidget
+            title="Search"
+            icon="🔍"
+            color={theme.colors.primary.purple}
+            onPress={handleSearchPress}
+            accessibilityHint="Search for roller coasters"
+          />
+          <QuickActionWidget
+            title="Wallet"
+            icon="💳"
+            color={theme.colors.primary.teal}
+            onPress={handleWalletPress}
+            accessibilityHint="View your digital wallet"
+          />
+          <QuickActionWidget
+            title="Stats"
+            icon="📊"
+            color={theme.colors.primary.orange}
+            onPress={handleStatsPress}
+            accessibilityHint="View your statistics"
+          />
+        </View>
 
         <Card variant="default" style={styles.card}>
           <Text variant="title3" color="primary" style={styles.cardTitle}>
@@ -110,6 +155,13 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     marginTop: 8,
+  },
+  widgetGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    marginBottom: 24,
+    gap: 12,
   },
   card: {
     marginBottom: 16,
