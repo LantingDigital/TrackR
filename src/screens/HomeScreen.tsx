@@ -249,6 +249,7 @@ const styles = StyleSheet.create({
   },
   fabText: {
     fontSize: 24,
+    lineHeight: 30,
   },
 });
 

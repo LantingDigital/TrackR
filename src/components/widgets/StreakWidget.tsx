@@ -66,6 +66,7 @@ export const StreakWidget: React.FC<StreakWidgetProps> = ({
             >
               <Text style={{
                 fontSize: 32,
+                lineHeight: 40,
                 opacity: game.completed ? 1 : 0.4
               }}>
                 {game.icon}
@@ -109,8 +110,6 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 12,
-    overflow: 'hidden',
   },
 });
 

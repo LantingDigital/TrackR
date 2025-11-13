@@ -38,7 +38,7 @@ export const QuickActionWidget: React.FC<QuickActionWidgetProps> = ({
         },
       ]}
     >
-      <Text style={{ fontSize: 28 }}>{icon}</Text>
+      <Text style={{ fontSize: 28, lineHeight: 36 }}>{icon}</Text>
     </View>
   );
 };
@@ -50,8 +50,6 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 12,
-    overflow: 'hidden',
   },
 });
 

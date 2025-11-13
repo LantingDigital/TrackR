@@ -134,17 +134,18 @@ const styles = StyleSheet.create({
   },
   rideCard: {
     width: 180,
-    overflow: 'hidden',
   },
   imagePlaceholder: {
     width: '100%',
     height: 100,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 12,
+    borderTopLeftRadius: 16,
+    borderTopRightRadius: 16,
   },
   imagePlaceholderEmoji: {
     fontSize: 40,
+    lineHeight: 50,
   },
   rideInfo: {
     padding: 12,
