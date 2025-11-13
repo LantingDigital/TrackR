@@ -9,7 +9,7 @@ import { StyleSheet, View, ScrollView, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Text, Card } from '@/components/base';
-import { QuickActionWidget } from '@/components/widgets';
+import { QuickActionWidget, StreakWidget, RidesCarouselWidget } from '@/components/widgets';
 import { useTheme, useHaptic, HapticType } from '@/hooks';
 import { RootStackParamList } from '@/navigation/types';
 
@@ -45,6 +45,12 @@ export const HomeScreen: React.FC = () => {
   const handleGamesPress = () => {
     trigger(HapticType.MEDIUM);
     navigation.navigate('GamesHub');
+  };
+
+  const handleRidePress = (rideId: string) => {
+    trigger(HapticType.LIGHT);
+    // TODO: Navigate to ride detail (Phase 3+)
+    console.log('View ride:', rideId);
   };
 
   return (
@@ -92,23 +98,45 @@ export const HomeScreen: React.FC = () => {
           />
         </View>
 
-        <Card variant="default" style={styles.card}>
-          <Text variant="title3" color="primary" style={styles.cardTitle}>
-            Streak & Games
-          </Text>
-          <Text variant="body" color="secondary">
-            Daily game completion status
-          </Text>
-        </Card>
+        {/* Streak & Games Tracker */}
+        <StreakWidget
+          currentStreak={7}
+          games={[
+            { name: 'Coastle', completed: true, icon: '🎢' },
+            { name: 'Trivia', completed: true, icon: '❓' },
+            { name: 'Cards', completed: false, icon: '🃏' },
+            { name: 'Blackjack', completed: false, icon: '🎰' },
+          ]}
+          onPress={handleGamesPress}
+        />
 
-        <Card variant="default" style={styles.card}>
-          <Text variant="title3" color="primary" style={styles.cardTitle}>
-            Last Logged Rides
-          </Text>
-          <Text variant="body" color="secondary">
-            Horizontal carousel will appear here
-          </Text>
-        </Card>
+        {/* Last Logged Rides Carousel */}
+        <RidesCarouselWidget
+          rides={[
+            {
+              id: '1',
+              coasterName: 'Steel Vengeance',
+              parkName: 'Cedar Point',
+              date: 'Today',
+              rating: 5,
+            },
+            {
+              id: '2',
+              coasterName: 'Fury 325',
+              parkName: 'Carowinds',
+              date: '2 days ago',
+              rating: 5,
+            },
+            {
+              id: '3',
+              coasterName: 'Maverick',
+              parkName: 'Cedar Point',
+              date: '1 week ago',
+              rating: 4,
+            },
+          ]}
+          onRidePress={handleRidePress}
+        />
 
         <Card variant="default" style={styles.card}>
           <Text variant="title3" color="primary" style={styles.cardTitle}>
