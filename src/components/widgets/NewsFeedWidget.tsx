@@ -116,15 +116,16 @@ export const NewsFeedWidget: React.FC<NewsFeedWidgetProps> = ({
 const styles = StyleSheet.create({
   container: {
     marginBottom: 24,
-    paddingHorizontal: 16,
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    paddingHorizontal: 16,
     marginBottom: 16,
   },
   articlesList: {
+    paddingHorizontal: 16,
     gap: 12,
   },
   articleCard: {

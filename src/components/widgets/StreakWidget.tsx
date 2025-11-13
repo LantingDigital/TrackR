@@ -88,7 +88,9 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   header: {
-    gap: 4,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   title: {
     fontWeight: '700',
