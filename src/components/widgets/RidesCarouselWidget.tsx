@@ -125,11 +125,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 16,
     marginBottom: 16,
   },
   scrollContent: {
-    paddingHorizontal: 16,
+    paddingLeft: 0,
+    paddingRight: 16,
     gap: 12,
   },
   rideCard: {
@@ -141,6 +141,7 @@ const styles = StyleSheet.create({
     height: 100,
     justifyContent: 'center',
     alignItems: 'center',
+    padding: 12,
   },
   imagePlaceholderEmoji: {
     fontSize: 40,

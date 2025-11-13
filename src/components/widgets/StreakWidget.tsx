@@ -109,6 +109,8 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
+    padding: 12,
+    overflow: 'hidden',
   },
 });
 

@@ -73,35 +73,39 @@ export const HomeScreen: React.FC = () => {
         </View>
 
         {/* Quick Actions - 2×2 Grid */}
-        <View style={styles.widgetGrid}>
-          <QuickActionWidget
-            title="Log Ride"
-            icon="📝"
-            color={theme.colors.primary.blue}
-            onPress={handleLogPress}
-            accessibilityHint="Log a new roller coaster ride"
-          />
-          <QuickActionWidget
-            title="Search"
-            icon="🔍"
-            color={theme.colors.primary.purple}
-            onPress={handleSearchPress}
-            accessibilityHint="Search for roller coasters"
-          />
-          <QuickActionWidget
-            title="Wallet"
-            icon="💳"
-            color={theme.colors.primary.teal}
-            onPress={handleWalletPress}
-            accessibilityHint="View your digital wallet"
-          />
-          <QuickActionWidget
-            title="Stats"
-            icon="📊"
-            color={theme.colors.primary.orange}
-            onPress={handleStatsPress}
-            accessibilityHint="View your statistics"
-          />
+        <View style={styles.widgetGridContainer}>
+          <View style={styles.widgetRow}>
+            <QuickActionWidget
+              title="Log Ride"
+              icon="📝"
+              color={theme.colors.primary.blue}
+              onPress={handleLogPress}
+              accessibilityHint="Log a new roller coaster ride"
+            />
+            <QuickActionWidget
+              title="Search"
+              icon="🔍"
+              color={theme.colors.primary.purple}
+              onPress={handleSearchPress}
+              accessibilityHint="Search for roller coasters"
+            />
+          </View>
+          <View style={styles.widgetRow}>
+            <QuickActionWidget
+              title="Wallet"
+              icon="💳"
+              color={theme.colors.primary.teal}
+              onPress={handleWalletPress}
+              accessibilityHint="View your digital wallet"
+            />
+            <QuickActionWidget
+              title="Stats"
+              icon="📊"
+              color={theme.colors.primary.orange}
+              onPress={handleStatsPress}
+              accessibilityHint="View your statistics"
+            />
+          </View>
         </View>
 
         {/* Streak & Games Tracker */}
@@ -211,11 +215,13 @@ const styles = StyleSheet.create({
   subtitle: {
     marginTop: 8,
   },
-  widgetGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
+  widgetGridContainer: {
     marginBottom: 32,
+    gap: 8,
+  },
+  widgetRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     gap: 8,
   },
   section: {

@@ -121,11 +121,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 16,
     marginBottom: 16,
   },
   articlesList: {
-    paddingHorizontal: 16,
     gap: 12,
   },
   articleCard: {

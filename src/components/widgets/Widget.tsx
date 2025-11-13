@@ -105,7 +105,7 @@ export const Widget: React.FC<WidgetProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    padding: 16,
+    padding: 20,
     justifyContent: 'center',
     alignItems: 'center',
     overflow: 'hidden',

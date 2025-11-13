@@ -30,47 +30,28 @@ export const QuickActionWidget: React.FC<QuickActionWidgetProps> = ({
   const theme = useTheme();
 
   return (
-    <Widget
-      onPress={onPress}
-      style={styles.widget}
-      accessibilityLabel={accessibilityLabel || title}
-      accessibilityHint={accessibilityHint}
+    <View
+      style={[
+        styles.widget,
+        {
+          backgroundColor: color + '30',
+        },
+      ]}
     >
-      <View style={styles.content}>
-        <View style={[styles.iconContainer, { backgroundColor: color + '20' }]}>
-          <Text style={{ fontSize: 40, color }}>{icon}</Text>
-        </View>
-        <Text variant="title3" color="primary" style={styles.title}>
-          {title}
-        </Text>
-      </View>
-    </Widget>
+      <Text style={{ fontSize: 28 }}>{icon}</Text>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   widget: {
     flex: 1,
-    minHeight: 120,
-    padding: 20,
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-  },
-  content: {
-    width: '100%',
-    flex: 1,
-    gap: 16,
-    justifyContent: 'center',
-  },
-  iconContainer: {
-    width: 64,
-    height: 64,
-    borderRadius: 16,
+    aspectRatio: 16 / 9,
+    borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  title: {
-    fontWeight: '700',
+    padding: 12,
+    overflow: 'hidden',
   },
 });
 
