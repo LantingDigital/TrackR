@@ -10,6 +10,7 @@ import Svg, { Circle } from 'react-native-svg';
 import Animated, {
   useSharedValue,
   useAnimatedProps,
+  useAnimatedStyle,
   withTiming,
   Easing,
   withSequence,
@@ -35,7 +36,23 @@ interface TriviaTimerProps {
   isPaused?: boolean;
   /** Size of the timer circle */
   size?: number;
+  /** Question difficulty for draw color */
+  difficulty?: 'easy' | 'medium' | 'hard';
 }
+
+// Get draw color based on difficulty
+const getDifficultyColor = (difficulty?: 'easy' | 'medium' | 'hard'): string => {
+  switch (difficulty) {
+    case 'easy':
+      return '#6B9B6B'; // Green
+    case 'medium':
+      return '#C9A857'; // Yellow
+    case 'hard':
+      return '#C77C7C'; // Red
+    default:
+      return '#7B68EE'; // Default purple if no difficulty
+  }
+};
 
 export const TriviaTimer: React.FC<TriviaTimerProps> = ({
   duration = QUESTION_TIME_LIMIT,
@@ -43,6 +60,7 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
   onTimeUpdate,
   isPaused = false,
   size = 150,
+  difficulty,
 }) => {
   const theme = useTheme();
   const reducedMotion = useReducedMotion();
@@ -56,10 +74,14 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
   // Progress value (1.0 to 0.0) - shared value for animation
   const progress = useSharedValue(1);
   const scale = useSharedValue(1);
+  const animatedStrokeWidth = useSharedValue(strokeWidth);
+  const drawProgress = useSharedValue(0); // Separate progress for draw phase with easing
+  const circleScale = useSharedValue(1); // For completion pulse
 
   // Display state (regular state for rendering)
   const [displayTime, setDisplayTime] = useState(duration);
   const [previousDisplayTime, setPreviousDisplayTime] = useState(duration);
+  const [isDrawPhase, setIsDrawPhase] = useState(true);
 
   // Get current timer colors
   const timerColors = getTimerColor(displayTime);
@@ -82,19 +104,75 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
   // Animate countdown
   useEffect(() => {
     if (isPaused) {
-      // Stop the progress animation when paused
+      // Stop all animations when paused
       cancelAnimation(progress);
+      cancelAnimation(drawProgress);
       return;
     }
 
     // Reset timer
     progress.value = 0; // Start from 0
+    drawProgress.value = 0; // Reset draw progress
     setDisplayTime(duration);
     setPreviousDisplayTime(duration);
+    setIsDrawPhase(true);
     scale.value = 1;
+    circleScale.value = 1;
+    animatedStrokeWidth.value = strokeWidth;
 
-    const totalDuration = duration * 1000 + 500; // Total: draw (500ms) + countdown (duration)
-    const drawPhaseEnd = 500 / totalDuration; // Fraction when draw ends (e.g., 0.05 for 500ms/10500ms)
+    const drawDuration = 750; // Increased from 500ms to 750ms for more noticeable acceleration
+    const totalDuration = duration * 1000 + drawDuration; // Total: draw + countdown
+    const drawPhaseEnd = drawDuration / totalDuration;
+
+    // Animate draw progress with custom bezier: 5% slow start, 80% fast middle, 15% slow end
+    drawProgress.value = withTiming(1, {
+      duration: drawDuration,
+      easing: Easing.bezier(0.3, 0, 0.15, 1), // Quick acceleration, long fast section
+    });
+
+    // Completion pulse after draw finishes
+    if (!reducedMotion) {
+      circleScale.value = withSequence(
+        // Wait for draw to complete
+        withDelay(
+          drawDuration,
+          withSequence(
+            // Quick pulse up
+            withSpring(1.08, theme.springs.snappy),
+            // Back to normal
+            withSpring(1, theme.springs.snappy)
+          )
+        )
+      );
+    }
+
+    // Switch from draw phase to countdown phase after draw completes
+    const phaseTimeout = setTimeout(() => {
+      setIsDrawPhase(false);
+    }, drawDuration);
+
+    // Animate stroke width pulse ONLY during the fast middle section
+    if (!reducedMotion) {
+      // Delay to skip the slow start (~5% = 37ms), pulse during middle section
+      animatedStrokeWidth.value = withSequence(
+        // Wait during short slow start
+        withDelay(
+          35,
+          withSequence(
+            // Pulse up during fast middle
+            withTiming(strokeWidth + 6, {
+              duration: 200,
+              easing: Easing.out(Easing.ease),
+            }),
+            // Pulse back down before slow end
+            withTiming(strokeWidth, {
+              duration: 200,
+              easing: Easing.in(Easing.ease),
+            })
+          )
+        )
+      );
+    }
 
     // Animate from 0 to 1 representing the entire duration
     progress.value = withTiming(1, {
@@ -103,8 +181,8 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
     });
 
     // Update time remaining display with more frequent updates
-    // Start counting down after the draw animation (500ms delay)
-    const startTime = Date.now() + 500; // Account for draw animation
+    // Start counting down after the draw animation
+    const startTime = Date.now() + drawDuration; // Account for draw animation
     let hasCompleted = false;
 
     const interval = setInterval(() => {
@@ -126,6 +204,7 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
 
     return () => {
       clearInterval(interval);
+      clearTimeout(phaseTimeout);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [duration, isPaused]);
@@ -133,22 +212,29 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
   // Animated stroke dash offset (conditional for both phases in same direction)
   const animatedProps = useAnimatedProps(() => {
     'worklet';
-    const drawPhaseEnd = 0.047619; // 500ms / 10500ms for 10s duration
+    const drawPhaseEnd = 0.0698; // 750ms / 10750ms for 10s duration
 
     if (progress.value <= drawPhaseEnd) {
-      // Draw phase: map 0→drawPhaseEnd to offset -circumference→0 (reveals counter-clockwise)
-      const drawProgress = progress.value / drawPhaseEnd;
+      // Draw phase: use drawProgress with ease-in-out for acceleration
+      // offset -circumference→0 (reveals counter-clockwise)
       return {
-        strokeDashoffset: -circumference + circumference * drawProgress,
+        strokeDashoffset: -circumference + circumference * drawProgress.value,
+        strokeWidth: animatedStrokeWidth.value,
       };
     } else {
       // Countdown phase: map drawPhaseEnd→1 to offset 0→circumference (continues counter-clockwise)
       const countdownProgress = (progress.value - drawPhaseEnd) / (1 - drawPhaseEnd);
       return {
         strokeDashoffset: circumference * countdownProgress,
+        strokeWidth: animatedStrokeWidth.value,
       };
     }
   });
+
+  // Animated style for circle scale (completion pulse)
+  const circleAnimatedStyle = useAnimatedStyle(() => ({
+    transform: [{ scale: circleScale.value }],
+  }));
 
   return (
     <Animated.View
@@ -163,33 +249,34 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
         },
       ]}
     >
-      <Svg width={size} height={size}>
-        {/* Background track */}
-        <Circle
-          cx={center}
-          cy={center}
-          r={radius}
-          stroke={theme.colors.border.light}
-          strokeWidth={strokeWidth}
-          fill="none"
-        />
+      <Animated.View style={circleAnimatedStyle}>
+        <Svg width={size} height={size}>
+          {/* Background track */}
+          <Circle
+            cx={center}
+            cy={center}
+            r={radius}
+            stroke={theme.colors.border.light}
+            strokeWidth={strokeWidth}
+            fill="none"
+          />
 
-        {/* Progress circle */}
-        <AnimatedCircle
-          cx={center}
-          cy={center}
-          r={radius}
-          stroke={timerColors.progressColor}
-          strokeWidth={strokeWidth}
-          strokeDasharray={circumference}
-          strokeDashoffset={0}
-          strokeLinecap="round"
-          fill="none"
-          rotation="-90"
-          origin={`${center}, ${center}`}
-          animatedProps={animatedProps}
-        />
-      </Svg>
+          {/* Progress circle - color changes based on phase */}
+          <AnimatedCircle
+            cx={center}
+            cy={center}
+            r={radius}
+            stroke={isDrawPhase ? getDifficultyColor(difficulty) : timerColors.progressColor}
+            strokeDasharray={circumference}
+            strokeDashoffset={0}
+            strokeLinecap="round"
+            fill="none"
+            rotation="-90"
+            origin={`${center}, ${center}`}
+            animatedProps={animatedProps}
+          />
+        </Svg>
+      </Animated.View>
 
       {/* Centered countdown text */}
       <View style={styles.textContainer}>
@@ -203,7 +290,7 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
             },
           ]}
         >
-          {displayTime}
+          {Math.min(displayTime, duration)}
         </Text>
       </View>
     </Animated.View>

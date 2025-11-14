@@ -161,6 +161,7 @@ export const TriviaQuestionScreen: React.FC<TriviaQuestionProps> = ({
           onTimeUpdate={handleTimeUpdate}
           isPaused={timerPaused}
           size={150}
+          difficulty={question.difficulty}
         />
 
         {/* Question text */}
@@ -237,8 +238,9 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     flexGrow: 1,
-    justifyContent: 'center',
-    padding: 16, // 8px grid
+    paddingHorizontal: 16,
+    paddingTop: 8,
+    paddingBottom: 16,
   },
   header: {
     flexDirection: 'row',

@@ -12,6 +12,7 @@ import {
   TouchableOpacity,
   SafeAreaView,
   Dimensions,
+  Modal,
 } from 'react-native';
 import Animated, {
   useSharedValue,
@@ -21,8 +22,9 @@ import Animated, {
   Extrapolate,
   withTiming,
   Easing,
+  SlideInDown,
 } from 'react-native-reanimated';
-import { Text } from '@/components/base';
+import { Text, Card } from '@/components/base';
 import { useTheme, useHaptic, HapticType } from '@/hooks';
 import {
   GameState,
@@ -136,6 +138,7 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
   const [showGameOver, setShowGameOver] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [currentAttemptPage, setCurrentAttemptPage] = useState(0);
+  const [showExitModal, setShowExitModal] = useState(false);
 
   // Ref for horizontal scroll
   const scrollViewRef = useRef<ScrollView>(null);
@@ -322,10 +325,27 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
     }
   };
 
-  // Handle help button
-  const handleHelp = () => {
-    trigger(HapticType.LIGHT);
-    // TODO: Show help modal
+  // Handle exit button press (show modal)
+  const handleExitPress = () => {
+    trigger(HapticType.SELECTION);
+    setShowExitModal(true);
+  };
+
+  // Handle confirmed exit to games hub
+  const handleConfirmExit = () => {
+    trigger(HapticType.SELECTION);
+    setShowExitModal(false);
+    setTimeout(() => {
+      if (navigation) {
+        navigation.goBack();
+      }
+    }, 0);
+  };
+
+  // Handle cancel exit
+  const handleCancelExit = () => {
+    trigger(HapticType.SELECTION);
+    setShowExitModal(false);
   };
 
   // Handle next attempt
@@ -380,19 +400,25 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
             )}
           </View>
           <TouchableOpacity
-            onPress={handleHelp}
-            style={styles.helpButton}
-            accessibilityLabel="Help"
+            onPress={handleExitPress}
+            style={[
+              styles.exitButton,
+              {
+                borderColor: theme.colors.text.primary,
+              },
+            ]}
+            accessibilityLabel="Exit game"
             accessibilityRole="button"
           >
             <Text
               variant="title3"
               style={{
-                ...styles.helpIcon,
-                lineHeight: 30, // CRITICAL: Prevent emoji clipping
+                ...styles.exitIcon,
+                lineHeight: 30,
+                color: theme.colors.text.primary,
               }}
             >
-              ?
+              ✕
             </Text>
           </TouchableOpacity>
         </View>
@@ -613,6 +639,114 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
           onReturnToHub={handleReturnToHub}
           onClose={() => setShowGameOver(false)}
         />
+
+        {/* Exit confirmation modal */}
+        <Modal
+          visible={showExitModal}
+          transparent
+          animationType="fade"
+          onRequestClose={handleCancelExit}
+        >
+          <View style={styles.modalOverlay}>
+            <Animated.View entering={SlideInDown.springify().damping(17).stiffness(135)}>
+              <Card
+                variant="elevated"
+                style={[
+                  styles.exitModalCard,
+                  {
+                    backgroundColor: theme.colors.background.primary,
+                    borderRadius: theme.borderRadius.xl,
+                    ...theme.shadows.xl,
+                  },
+                ]}
+              >
+                {/* Warning emoji */}
+                <Text
+                  style={{
+                    fontSize: 48,
+                    lineHeight: 60,
+                    textAlign: 'center',
+                    marginBottom: 16,
+                  }}
+                >
+                  ⚠️
+                </Text>
+
+                {/* Title */}
+                <Text
+                  variant="title2"
+                  style={[
+                    styles.modalTitle,
+                    {
+                      color: theme.colors.text.primary,
+                    },
+                  ]}
+                >
+                  Exit Game?
+                </Text>
+
+                {/* Message */}
+                <Text
+                  variant="body"
+                  color="secondary"
+                  style={styles.modalMessage}
+                >
+                  Your progress will be lost. Are you sure you want to exit?
+                </Text>
+
+                {/* Buttons */}
+                <View style={styles.modalButtons}>
+                  <TouchableOpacity
+                    style={[
+                      styles.modalButton,
+                      styles.cancelButton,
+                      {
+                        backgroundColor: theme.colors.background.secondary,
+                        borderRadius: theme.borderRadius.md,
+                      },
+                    ]}
+                    onPress={handleCancelExit}
+                    activeOpacity={0.8}
+                  >
+                    <Text
+                      variant="headline"
+                      style={{
+                        color: theme.colors.text.primary,
+                        fontWeight: '600',
+                      }}
+                    >
+                      Cancel
+                    </Text>
+                  </TouchableOpacity>
+
+                  <TouchableOpacity
+                    style={[
+                      styles.modalButton,
+                      styles.exitButtonConfirm,
+                      {
+                        backgroundColor: theme.colors.semantic.error,
+                        borderRadius: theme.borderRadius.md,
+                        ...theme.shadows.md,
+                      },
+                    ]}
+                    onPress={handleConfirmExit}
+                    activeOpacity={0.8}
+                  >
+                    <Text
+                      variant="headline"
+                      style={{
+                        color: '#FFFFFF',
+                        fontWeight: '600',
+                      }}
+                    >
+                      Exit Game
+                    </Text>
+                  </TouchableOpacity>
+                </View>
+              </Card>
+            </Animated.View>
+          </View>
+        </Modal>
       </View>
     </SafeAreaView>
   );
@@ -645,17 +779,52 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     letterSpacing: 1,
   },
-  helpButton: {
+  exitButton: {
     width: 32,
     height: 32,
     borderRadius: 16,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: '#1A1A1A',
   },
-  helpIcon: {
+  exitIcon: {
     fontWeight: '700',
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 16,
+  },
+  exitModalCard: {
+    width: Math.min(Dimensions.get('window').width - 32, 400),
+    padding: 24,
+  },
+  modalTitle: {
+    textAlign: 'center',
+    fontWeight: '700',
+    marginBottom: 12,
+  },
+  modalMessage: {
+    textAlign: 'center',
+    marginBottom: 24,
+  },
+  modalButtons: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  modalButton: {
+    flex: 1,
+    paddingVertical: 14,
+    paddingHorizontal: 20,
+    alignItems: 'center',
+  },
+  cancelButton: {
+    // Styles applied inline
+  },
+  exitButtonConfirm: {
+    // Styles applied inline
   },
   horizontalScroll: {
     flex: 1,

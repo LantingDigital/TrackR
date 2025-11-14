@@ -6,11 +6,20 @@
 
 import React from 'react';
 import { createNativeStackNavigator, NativeStackNavigationOptions } from '@react-navigation/native-stack';
-import { Platform } from 'react-native';
+import { Platform, TouchableOpacity } from 'react-native';
 import { BottomTabNavigator } from './BottomTabNavigator';
-import { LoggerScreen, WalletScreen, GamesHubScreen } from '@/screens';
+import {
+  LoggerScreen,
+  WalletScreen,
+  GamesHubScreen,
+  CoastleGameScreen,
+  TriviaGameScreen,
+  TradingCardGameScreen,
+  BlackjackGameScreen,
+} from '@/screens';
 import { RootStackParamList } from './types';
 import { useTheme } from '@/hooks';
+import { Text } from '@/components/base';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -79,15 +88,105 @@ export const RootNavigator: React.FC = () => {
       <Stack.Screen
         name="GamesHub"
         component={GamesHubScreen}
+        options={({ navigation }) => ({
+          ...modalOptions,
+          title: 'MINIGAMES',
+          presentation: 'fullScreenModal',
+          headerTitleStyle: {
+            ...theme.typography.title3,
+            color: theme.colors.text.primary,
+            fontWeight: '700',
+            letterSpacing: 1,
+          },
+          headerLeft: () => (
+            <TouchableOpacity
+              onPress={() => navigation.goBack()}
+              style={{
+                paddingLeft: 8,
+                paddingRight: 16,
+                paddingVertical: 8,
+              }}
+              hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+            >
+              <Text
+                variant="title3"
+                style={{
+                  color: theme.colors.text.primary,
+                  fontWeight: '600',
+                  lineHeight: 30,
+                }}
+              >
+                ←
+              </Text>
+            </TouchableOpacity>
+          ),
+        })}
+      />
+
+      {/* Individual Game Screens */}
+      <Stack.Screen
+        name="CoastleGame"
+        component={CoastleGameScreen}
         options={{
           ...modalOptions,
-          title: 'Games',
+          title: 'MINIGAMES',
           presentation: 'fullScreenModal',
+          headerTitleStyle: {
+            ...theme.typography.title3,
+            color: theme.colors.text.primary,
+            fontWeight: '700',
+            letterSpacing: 1,
+          },
         }}
       />
 
-      {/* Individual Game Screens - Coming in Phase 5 */}
-      {/* TODO: Add Coastle, Trivia, Trading Card, Blackjack screens */}
+      <Stack.Screen
+        name="TriviaGame"
+        component={TriviaGameScreen}
+        options={{
+          ...modalOptions,
+          title: 'MINIGAMES',
+          presentation: 'fullScreenModal',
+          headerTitleStyle: {
+            ...theme.typography.title3,
+            color: theme.colors.text.primary,
+            fontWeight: '700',
+            letterSpacing: 1,
+          },
+        }}
+      />
+
+      <Stack.Screen
+        name="TradingCardGame"
+        component={TradingCardGameScreen}
+        options={{
+          ...modalOptions,
+          title: 'MINIGAMES',
+          presentation: 'fullScreenModal',
+          headerTitleStyle: {
+            ...theme.typography.title3,
+            color: theme.colors.text.primary,
+            fontWeight: '700',
+            letterSpacing: 1,
+          },
+        }}
+      />
+
+      <Stack.Screen
+        name="BlackjackGame"
+        component={BlackjackGameScreen}
+        options={{
+          ...modalOptions,
+          title: 'MINIGAMES',
+          presentation: 'fullScreenModal',
+          headerTitleStyle: {
+            ...theme.typography.title3,
+            color: theme.colors.text.primary,
+            fontWeight: '700',
+            letterSpacing: 1,
+          },
+        }}
+      />
     </Stack.Navigator>
   );
 };
