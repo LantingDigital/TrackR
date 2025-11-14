@@ -1,7 +1,7 @@
 # TrackR - Claude Development Reference
 
-**Last Updated:** 2025-11-13
-**Current Phase:** Phase 3 Complete ✅ → Moving to Phase 4
+**Last Updated:** 2025-11-14
+**Current Phase:** Phase 4 - Minigames Complete ✅
 
 ---
 
@@ -40,7 +40,15 @@
 - Floating Action Button (FAB)
 - **Key Achievement:** Resolved emoji rendering and layout issues
 
-### 🚧 Phase 4: Logger System (NEXT)
+### ✅ Phase 4: Minigames Navigation & Headers (COMPLETE)
+- Unified "MINIGAMES" header across all game screens (all caps, bold, letter spacing)
+- Consistent game header layout: game name (left) + X button (right)
+- Exit confirmation modals for all games (Trivia, Coastle, Trading Cards, Higher or Lower)
+- Games Hub with back button navigation to main app
+- Fullscreen presentation for all minigame screens
+- **Key Achievement:** Consistent navigation UX across all minigames
+
+### 🚧 Phase 5: Logger System (NEXT)
 - Weighted criteria ride logging system
 - Park/coaster selection
 - Rating with multiple criteria
@@ -227,6 +235,73 @@ const styles = StyleSheet.create({
 </ScrollView>
 ```
 
+### Minigames Navigation Pattern
+```typescript
+// Navigation header configuration (RootNavigator.tsx)
+<Stack.Screen
+  name="GameName"
+  component={GameScreen}
+  options={{
+    ...modalOptions,
+    title: 'MINIGAMES',
+    presentation: 'fullScreenModal',
+    headerTitleStyle: {
+      ...theme.typography.title3,
+      color: theme.colors.text.primary,
+      fontWeight: '700',
+      letterSpacing: 1,
+    },
+  }}
+/>
+
+// Games Hub with custom back button (GamesHubScreen)
+<Stack.Screen
+  name="GamesHub"
+  component={GamesHubScreen}
+  options={({ navigation }) => ({
+    ...modalOptions,
+    title: 'MINIGAMES',
+    presentation: 'fullScreenModal',
+    headerLeft: () => (
+      <TouchableOpacity onPress={() => navigation.goBack()}>
+        <Text>←</Text>
+      </TouchableOpacity>
+    ),
+  })}
+/>
+
+// Individual game header (inside game screen)
+<View style={styles.header}>
+  <View style={styles.headerLeft}>
+    <Text variant="title1">Game Name</Text>
+  </View>
+  <TouchableOpacity onPress={handleExitPress} style={styles.exitButton}>
+    <Text>✕</Text>
+  </TouchableOpacity>
+</View>
+
+// Exit confirmation modal pattern
+<Modal visible={showExitModal} transparent animationType="fade">
+  <View style={styles.modalOverlay}>
+    <Animated.View entering={SlideInDown.springify()}>
+      <Card>
+        <Text>⚠️</Text>
+        <Text variant="title2">Exit Game?</Text>
+        <Text>Your progress will be lost. Are you sure?</Text>
+        <View style={styles.modalButtons}>
+          <TouchableOpacity onPress={handleCancelExit}>
+            <Text>Cancel</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={handleConfirmExit}>
+            <Text>Exit Game</Text>
+          </TouchableOpacity>
+        </View>
+      </Card>
+    </Animated.View>
+  </View>
+</Modal>
+```
+
 ---
 
 ## Lessons Learned
@@ -253,6 +328,27 @@ const styles = StyleSheet.create({
 5. **Aspect Ratio Confusion**
    - Problem: Multiple attempts with wrong ratios (3:2, 1:1)
    - Solution: 16:9 is standard landscape rectangle ratio
+
+### Phase 4 Minigames Navigation Challenges
+
+1. **Navigation Header Customization**
+   - Problem: Needed custom back button while keeping navigation header
+   - Solution: Use `headerLeft` in navigation options with custom component
+   - Alternative: Could use `headerBackVisible: true` but loses fullscreen presentation
+
+2. **Fullscreen vs Modal Presentation**
+   - Problem: `fullScreenModal` presentation hides default back button
+   - Solution: Use custom `headerLeft` component for Games Hub
+   - Individual games: Use `presentation: 'fullScreenModal'` without back button (only X to exit)
+
+3. **Exit Confirmation Pattern**
+   - Problem: Need to prevent accidental exits during gameplay
+   - Solution: Intercept navigation with `beforeRemove` listener during active gameplay
+   - Implementation: Show modal with Cancel/Exit options, only proceed if confirmed
+
+4. **Vertical Spacing in Trivia Screen**
+   - Problem: Content vertically centered with large gap below header
+   - Solution: Remove `justifyContent: 'center'` from ScrollView, use minimal top padding (8px)
 
 ---
 
