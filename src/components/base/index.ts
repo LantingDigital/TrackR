@@ -11,3 +11,9 @@ export type { CardProps, CardVariant } from './Card';
 
 export { Text } from './Text';
 export type { TextProps, TextVariant, TextColor } from './Text';
+
+export { TextInput } from './TextInput';
+export type { TextInputProps } from './TextInput';
+
+export { Slider } from './Slider';
+export type { SliderProps } from './Slider';
