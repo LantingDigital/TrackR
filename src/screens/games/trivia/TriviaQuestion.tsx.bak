@@ -1,0 +1,261 @@
+/**
+ * Trivia Question Component
+ * Displays question, timer, and answer options with feedback
+ */
+
+import React, { useState, useEffect } from 'react';
+import { View, StyleSheet } from 'react-native';
+import Animated, {
+  useSharedValue,
+  useAnimatedStyle,
+  withSpring,
+  withSequence,
+  FadeIn,
+} from 'react-native-reanimated';
+import { Text, Card } from '@/components/base';
+import { useTheme, useHaptic, HapticType } from '@/hooks';
+import { TriviaTimer } from './TriviaTimer';
+import { TriviaOptions } from './TriviaOptions';
+import { TriviaQuestion as TriviaQuestionType } from './types';
+import { formatScore } from './triviaLogic';
+
+interface TriviaQuestionProps {
+  /** Current question data */
+  question: TriviaQuestionType;
+  /** Question number (1-5) */
+  questionNumber: number;
+  /** Total questions in game */
+  totalQuestions: number;
+  /** Current score */
+  currentScore: number;
+  /** Callback when answer is selected */
+  onAnswer: (selectedIndex: number, timeRemaining: number) => void;
+}
+
+export const TriviaQuestionScreen: React.FC<TriviaQuestionProps> = ({
+  question,
+  questionNumber,
+  totalQuestions,
+  currentScore,
+  onAnswer,
+}) => {
+  const theme = useTheme();
+  const { trigger } = useHaptic();
+
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [showFeedback, setShowFeedback] = useState(false);
+  const [timeRemaining, setTimeRemaining] = useState(10);
+  const [timerPaused, setTimerPaused] = useState(false);
+
+  // Points animation
+  const pointsScale = useSharedValue(0);
+  const pointsOpacity = useSharedValue(0);
+
+  // Reset state when question changes
+  useEffect(() => {
+    setSelectedIndex(null);
+    setShowFeedback(false);
+    setTimeRemaining(10);
+    setTimerPaused(false);
+    pointsScale.value = 0;
+    pointsOpacity.value = 0;
+  }, [question.id]);
+
+  // Handle timer completion (time ran out)
+  const handleTimeUp = () => {
+    if (selectedIndex === null) {
+      // No answer selected - automatically mark as wrong
+      setSelectedIndex(-1); // -1 indicates no selection
+      handleAnswerSubmit(-1, 0);
+    }
+  };
+
+  // Handle option selection
+  const handleSelectOption = (index: number) => {
+    if (showFeedback) return; // Already answered
+
+    setSelectedIndex(index);
+    setTimerPaused(true);
+
+    // Submit answer immediately
+    handleAnswerSubmit(index, timeRemaining);
+  };
+
+  // Handle answer submission and feedback
+  const handleAnswerSubmit = (index: number, time: number) => {
+    const isCorrect = index === question.correctIndex;
+
+    // Trigger haptic feedback
+    if (isCorrect) {
+      trigger(HapticType.SUCCESS);
+    } else {
+      trigger(HapticType.ERROR);
+    }
+
+    // Show feedback
+    setShowFeedback(true);
+
+    // Wait 2 seconds before moving to next question
+    setTimeout(() => {
+      onAnswer(index, time);
+    }, 2000);
+  };
+
+  // Animated styles for points display
+  const pointsAnimatedStyle = useAnimatedStyle(() => ({
+    transform: [{ scale: pointsScale.value }],
+    opacity: pointsOpacity.value,
+  }));
+
+  return (
+    <View style={styles.container}>
+      {/* Question header */}
+      <View style={styles.header}>
+        <Text variant="body" color="tertiary">
+          Question {questionNumber}/{totalQuestions}
+        </Text>
+        <Text variant="body" color="secondary" style={styles.scoreText}>
+          Score: {formatScore(currentScore)}
+        </Text>
+      </View>
+
+      {/* Timer container */}
+      <Card variant="elevated" style={styles.timerCard}>
+        <TriviaTimer
+          duration={10}
+          onComplete={handleTimeUp}
+          isPaused={timerPaused}
+          size={300}
+        />
+
+        {/* Question text */}
+        <Text
+          variant="title3"
+          style={[
+            styles.questionText,
+            {
+              color: theme.colors.text.primary,
+            },
+          ]}
+        >
+          {question.question}
+        </Text>
+
+        {/* Difficulty badge */}
+        <View
+          style={[
+            styles.difficultyBadge,
+            {
+              backgroundColor:
+                question.difficulty === 'easy'
+                  ? '#6B9B6B'
+                  : question.difficulty === 'medium'
+                  ? '#C9A857'
+                  : '#C77C7C',
+            },
+          ]}
+        >
+          <Text
+            style={[
+              styles.difficultyText,
+              {
+                fontSize: 12,
+                lineHeight: 16,
+                color: '#FEFDFB',
+              },
+            ]}
+          >
+            {question.difficulty.toUpperCase()}
+          </Text>
+        </View>
+      </Card>
+
+      {/* Answer options */}
+      <View style={styles.optionsContainer}>
+        <TriviaOptions
+          options={question.options}
+          selectedIndex={selectedIndex}
+          correctIndex={question.correctIndex}
+          showFeedback={showFeedback}
+          onSelectOption={handleSelectOption}
+          disabled={timerPaused}
+        />
+      </View>
+
+      {/* Explanation (shown after feedback) */}
+      {showFeedback && question.explanation && (
+        <Animated.View entering={FadeIn.duration(500)}>
+          <Card
+            variant="flat"
+            style={[
+              styles.explanationCard,
+              {
+                backgroundColor: theme.colors.background.tertiary,
+              },
+            ]}
+          >
+            <Text
+              variant="body"
+              style={[
+                styles.explanationText,
+                {
+                  color: theme.colors.text.secondary,
+                },
+              ]}
+            >
+              {question.explanation}
+            </Text>
+          </Card>
+        </Animated.View>
+      )}
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16, // 8px grid
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 24,
+  },
+  scoreText: {
+    fontWeight: '700',
+    fontVariant: ['tabular-nums'], // Monospaced numbers
+  },
+  timerCard: {
+    padding: 24,
+    marginBottom: 32,
+    alignItems: 'center',
+    gap: 24,
+    borderRadius: 16,
+  },
+  questionText: {
+    textAlign: 'center',
+    marginTop: 8,
+  },
+  difficultyBadge: {
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 12,
+    alignSelf: 'center',
+  },
+  difficultyText: {
+    fontWeight: '700',
+    letterSpacing: 0.5,
+  },
+  optionsContainer: {
+    marginBottom: 16,
+  },
+  explanationCard: {
+    padding: 16,
+    borderRadius: 12,
+  },
+  explanationText: {
+    fontStyle: 'italic',
+  },
+});
