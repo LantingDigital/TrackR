@@ -466,7 +466,7 @@ export const TradingCardScreen: React.FC<TradingCardScreenProps> = ({ onClose })
         onRequestClose={handleCancelExit}
       >
         <View style={styles.modalOverlay}>
-          <Animated.View entering={SlideInDown.springify().damping(25).stiffness(150)}>
+          <Animated.View entering={SlideInDown.springify().damping(50).stiffness(200)}>
             <Card
               variant="elevated"
               style={[

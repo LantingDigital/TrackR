@@ -130,17 +130,17 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
       easing: Easing.bezier(0.3, 0, 0.15, 1), // Quick acceleration, long fast section
     });
 
-    // Completion pulse after draw finishes - quick pop
+    // Completion pulse after draw finishes - very quick pop
     if (!reducedMotion) {
       circleScale.value = withSequence(
         // Wait for draw to complete
         withDelay(
           drawDuration,
           withSequence(
-            // Quick pulse up - faster and smaller
-            withSpring(1.05, { damping: 15, stiffness: 300 }),
-            // Back to normal quickly
-            withSpring(1, { damping: 15, stiffness: 300 })
+            // Very quick pulse up - super snappy
+            withSpring(1.08, { damping: 12, stiffness: 500, mass: 0.5 }),
+            // Back to normal very quickly
+            withSpring(1, { damping: 12, stiffness: 500, mass: 0.5 })
           )
         )
       );

@@ -486,7 +486,7 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
                       <CoastleSearch
                         onSelect={handleGuess}
                         disabled={isAnimating}
-                        autoFocus={attemptIndex === 0 && currentAttemptPage === 0}
+                        autoFocus={false}
                       />
                     </View>
                   )}
@@ -648,7 +648,7 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
           onRequestClose={handleCancelExit}
         >
           <View style={styles.modalOverlay}>
-            <Animated.View entering={SlideInDown.springify().damping(25).stiffness(150)}>
+            <Animated.View entering={SlideInDown.springify().damping(50).stiffness(200)}>
               <Card
                 variant="elevated"
                 style={[

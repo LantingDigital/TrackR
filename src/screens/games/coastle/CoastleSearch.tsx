@@ -63,8 +63,10 @@ export const CoastleSearch: React.FC<CoastleSearchProps> = ({
     setQuery('');
     setResults([]);
     setShowResults(false);
-    Keyboard.dismiss();
+    // Don't dismiss keyboard - let the selection happen first
     onSelect(coaster);
+    // Dismiss after selection processed
+    setTimeout(() => Keyboard.dismiss(), 100);
   };
 
   // Handle focus
