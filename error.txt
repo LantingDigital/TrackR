@@ -1,0 +1,1697 @@
+iOS Bundled 35ms (node_modules/expo/AppEntry.js)
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 5 label: ⚡ Thrill/Intensity
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 133.33333333333331
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 5 label: ✨ Smoothness
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 133.33333333333331
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 5 label: ☁️ Airtime
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 133.33333333333331
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 5 label: 🎨 Theming
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 133.33333333333331
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 5 label: 🔄 Inversions
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 133.33333333333331
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 5 label: 💨 Speed
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 133.33333333333331
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 17 label: ⚡ Thrill/Intensity
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 51.00000000000001
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 17 label: ✨ Smoothness
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 51.00000000000001
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 17 label: ☁️ Airtime
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 51.00000000000001
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 17 label: 🎨 Theming
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 51.00000000000001
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 17 label: 🔄 Inversions
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 51.00000000000001
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 17 label: 💨 Speed
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 51.00000000000001
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 159.11111111111111
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 159.11111111111111
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 159.11111111111111
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 159.11111111111111
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 159.11111111111111
+ LOG  [Slider useEffect] Triggered - value: 5 localValue: 5 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 159.11111111111111
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 60.86000000000001
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 60.86000000000001
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 60.86000000000001
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 60.86000000000001
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 60.86000000000001
+ LOG  [Slider useEffect] Triggered - value: 17 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 60.86000000000001
+ LOG  [WORKLET onBegin] Setting isDragging = true
+ LOG  [Slider onDragStart] Called
+ LOG  [WORKLET onUpdate] event.x: 27.888885498046875 newPosition: 27.888885498046875 thumbPosition.value: 159.11111111111111
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 159.11111450195312 newPosition: 159.11111450195312 thumbPosition.value: 27.888885498046875
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 30.22221883138019 newPosition: 30.22221883138019 thumbPosition.value: 159.11111450195312
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 161.11111386617023 newPosition: 161.11111386617023 thumbPosition.value: 30.22221883138019
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 32.55555216471353 newPosition: 32.55555216471353 thumbPosition.value: 161.11111386617023
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 166.44444847106934 newPosition: 166.44444847106934 thumbPosition.value: 32.55555216471353
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 35.22222391764322 newPosition: 35.22222391764322 thumbPosition.value: 166.44444847106934
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 169.4444433848063 newPosition: 169.4444433848063 thumbPosition.value: 35.22222391764322
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 37.88889058430988 newPosition: 37.88889058430988 thumbPosition.value: 169.4444433848063
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 172.11110877990723 newPosition: 172.11110877990723 thumbPosition.value: 37.88889058430988
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 40.55555216471353 newPosition: 40.55555216471353 thumbPosition.value: 172.11110877990723
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 174.77778180440265 newPosition: 174.77778180440265 thumbPosition.value: 40.55555216471353
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 43.5555470784505 newPosition: 43.5555470784505 thumbPosition.value: 174.77778180440265
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 177.77778561909992 newPosition: 177.77778561909992 thumbPosition.value: 43.5555470784505
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 46.5555470784505 newPosition: 46.5555470784505 thumbPosition.value: 177.77778561909992
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 180.77778752644855 newPosition: 180.77778752644855 thumbPosition.value: 46.5555470784505
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 49.5555470784505 newPosition: 49.5555470784505 thumbPosition.value: 180.77778752644855
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 183.44445419311523 newPosition: 183.44445419311523 thumbPosition.value: 49.5555470784505
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 52.22220865885416 newPosition: 52.22220865885416 thumbPosition.value: 183.44445419311523
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 186.1111234029134 newPosition: 186.1111234029134 thumbPosition.value: 52.22220865885416
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 54.55553690592447 newPosition: 54.55553690592447 thumbPosition.value: 186.1111234029134
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 188.11112848917642 newPosition: 188.11112848917642 thumbPosition.value: 54.55553690592447
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 56.55553690592447 newPosition: 56.55553690592447 thumbPosition.value: 188.11112848917642
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 189.44446182250977 newPosition: 189.44446182250977 thumbPosition.value: 56.55553690592447
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 58.888875325520814 newPosition: 58.888875325520814 thumbPosition.value: 189.44446182250977
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 190.44445927937824 newPosition: 190.44445927937824 thumbPosition.value: 58.888875325520814
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 59.888875325520814 newPosition: 59.888875325520814 thumbPosition.value: 190.44445927937824
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 191.44445927937824 newPosition: 191.44445927937824 thumbPosition.value: 59.888875325520814
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 60.888875325520814 newPosition: 60.888875325520814 thumbPosition.value: 191.44445927937824
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 192.11112594604492 newPosition: 192.11112594604492 thumbPosition.value: 60.888875325520814
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 61.88887023925781 newPosition: 61.88887023925781 thumbPosition.value: 192.11112594604492
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 193.1111297607422 newPosition: 193.1111297607422 thumbPosition.value: 61.88887023925781
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 63.22220357259113 newPosition: 63.22220357259113 thumbPosition.value: 193.1111297607422
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 194.11113103230792 newPosition: 194.11113103230792 thumbPosition.value: 63.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 64.22220357259113 newPosition: 64.22220357259113 thumbPosition.value: 194.11113103230792
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 195.11113103230792 newPosition: 195.11113103230792 thumbPosition.value: 64.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 65.22220357259113 newPosition: 65.22220357259113 thumbPosition.value: 195.11113103230792
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 196.11113103230792 newPosition: 196.11113103230792 thumbPosition.value: 65.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 66.22220357259113 newPosition: 66.22220357259113 thumbPosition.value: 196.11113103230792
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 198.11113103230792 newPosition: 198.11113103230792 thumbPosition.value: 66.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 67.22220357259113 newPosition: 67.22220357259113 thumbPosition.value: 198.11113103230792
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 199.11113103230792 newPosition: 199.11113103230792 thumbPosition.value: 67.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 68.22220357259113 newPosition: 68.22220357259113 thumbPosition.value: 199.11113103230792
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 200.11113103230792 newPosition: 200.11113103230792 thumbPosition.value: 68.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 69.22220357259113 newPosition: 69.22220357259113 thumbPosition.value: 200.11113103230792
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 201.44446436564124 newPosition: 201.44446436564124 thumbPosition.value: 69.22220357259113
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 70.22220865885413 newPosition: 70.22220865885413 thumbPosition.value: 201.44446436564124
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 202.77779006958008 newPosition: 202.77779006958008 thumbPosition.value: 70.22220865885413
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 71.22221374511719 newPosition: 71.22221374511719 thumbPosition.value: 202.77779006958008
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 204.11111958821613 newPosition: 204.11111958821613 thumbPosition.value: 71.22221374511719
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 72.5555521647135 newPosition: 72.5555521647135 thumbPosition.value: 204.11111958821613
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 205.4444465637207 newPosition: 205.4444465637207 thumbPosition.value: 72.5555521647135
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 73.55555725097656 newPosition: 73.55555725097656 thumbPosition.value: 205.4444465637207
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 206.77777608235675 newPosition: 206.77777608235675 thumbPosition.value: 73.55555725097656
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 74.55556233723956 newPosition: 74.55556233723956 thumbPosition.value: 206.77777608235675
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 208.1111056009928 newPosition: 208.1111056009928 thumbPosition.value: 74.55556233723956
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 75.55556742350257 newPosition: 75.55556742350257 thumbPosition.value: 208.1111056009928
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 209.11109797159827 newPosition: 209.11109797159827 thumbPosition.value: 75.55556742350257
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 76.88890075683594 newPosition: 76.88890075683594 thumbPosition.value: 209.11109797159827
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 210.11109924316406 newPosition: 210.11109924316406 thumbPosition.value: 76.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 77.88890075683594 newPosition: 77.88890075683594 thumbPosition.value: 210.11109924316406
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 211.44443257649738 newPosition: 211.44443257649738 thumbPosition.value: 77.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 79.22223917643225 newPosition: 79.22223917643225 thumbPosition.value: 211.44443257649738
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 212.77776336669922 newPosition: 212.77776336669922 thumbPosition.value: 79.22223917643225
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 80.22222900390625 newPosition: 80.22222900390625 thumbPosition.value: 212.77776336669922
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 214.11110432942706 newPosition: 214.11110432942706 thumbPosition.value: 80.22222900390625
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 81.55556742350257 newPosition: 81.55556742350257 thumbPosition.value: 214.11110432942706
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 215.11110178629554 newPosition: 215.11110178629554 thumbPosition.value: 81.55556742350257
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 82.88890075683594 newPosition: 82.88890075683594 thumbPosition.value: 215.11110178629554
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 216.11109924316406 newPosition: 216.11109924316406 thumbPosition.value: 82.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 83.88890075683594 newPosition: 83.88890075683594 thumbPosition.value: 216.11109924316406
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 217.44443257649738 newPosition: 217.44443257649738 thumbPosition.value: 83.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 84.88890584309894 newPosition: 84.88890584309894 thumbPosition.value: 217.44443257649738
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 218.44442494710285 newPosition: 218.44442494710285 thumbPosition.value: 84.88890584309894
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 85.88890584309894 newPosition: 85.88890584309894 thumbPosition.value: 218.44442494710285
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 219.44442494710285 newPosition: 219.44442494710285 thumbPosition.value: 85.88890584309894
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 86.88890584309894 newPosition: 86.88890584309894 thumbPosition.value: 219.44442494710285
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 220.11109161376953 newPosition: 220.11109161376953 thumbPosition.value: 86.88890584309894
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 87.55558268229163 newPosition: 87.55558268229163 thumbPosition.value: 220.11109161376953
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 220.77775319417316 newPosition: 220.77775319417316 thumbPosition.value: 87.55558268229163
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 87.88891092936194 newPosition: 87.88891092936194 thumbPosition.value: 220.77775319417316
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 221.44442494710285 newPosition: 221.44442494710285 thumbPosition.value: 87.88891092936194
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 88.22223917643225 newPosition: 88.22223917643225 thumbPosition.value: 221.44442494710285
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 221.77776336669922 newPosition: 221.77776336669922 thumbPosition.value: 88.22223917643225
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 88.55556233723956 newPosition: 88.55556233723956 thumbPosition.value: 221.77776336669922
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 222.11110178629554 newPosition: 222.11110178629554 thumbPosition.value: 88.55556233723956
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 88.88890075683594 newPosition: 88.88890075683594 thumbPosition.value: 222.11110178629554
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 223.44443257649738 newPosition: 223.44443257649738 thumbPosition.value: 88.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 89.22223917643225 newPosition: 89.22223917643225 thumbPosition.value: 223.44443257649738
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 224.11109670003253 newPosition: 224.11109670003253 thumbPosition.value: 89.22223917643225
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 89.55556742350257 newPosition: 89.55556742350257 thumbPosition.value: 224.11109670003253
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 224.4444351196289 newPosition: 224.4444351196289 thumbPosition.value: 89.55556742350257
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 90.22223917643225 newPosition: 90.22223917643225 thumbPosition.value: 224.4444351196289
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 225.77776336669922 newPosition: 225.77776336669922 thumbPosition.value: 90.22223917643225
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 91.22222900390625 newPosition: 91.22222900390625 thumbPosition.value: 225.77776336669922
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 226.44443766276038 newPosition: 226.44443766276038 thumbPosition.value: 91.22222900390625
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onEnd] Starting - thumbPosition.value: 226.44443766276038
+ LOG  [WORKLET onEnd] Calculated finalValue: 7
+ LOG  [WORKLET onEnd] Springing to finalPosition: 238.66666666666666
+ LOG  [WORKLET onEnd] Setting isDragging = false
+ LOG  [WORKLET onEnd] Calling onDragEnd with finalValue: 7
+ LOG  [Slider onDragEnd] Calling parent onChange with finalValue: 7
+ LOG  [LoggerScreen Rating onChange] criteria: thrill value: 7
+ LOG  [Slider onDragEnd] Parent onChange returned
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 7 label: ⚡ Thrill/Intensity
+ LOG  [Slider useEffect] Triggered - value: 7 localValue: 7 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 238.66666666666666
+ LOG  [WORKLET onBegin] Setting isDragging = true
+ LOG  [Slider onDragStart] Called
+ LOG  [WORKLET onUpdate] event.x: -2.7777811686198106 newPosition: 0 thumbPosition.value: 159.11111111111111
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 156.33333333333331 newPosition: 156.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -1.3333282470703125 newPosition: 0 thumbPosition.value: 156.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 153.33333333333331 newPosition: 153.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -2.999994913736998 newPosition: 0 thumbPosition.value: 153.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 149 newPosition: 149 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -2.6666666666666856 newPosition: 0 thumbPosition.value: 149
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 145.33333333333331 newPosition: 145.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -1.3333282470703125 newPosition: 0 thumbPosition.value: 145.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 143 newPosition: 143 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -1 newPosition: 0 thumbPosition.value: 143
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 141.33333333333331 newPosition: 141.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 141.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 140 newPosition: 140 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -0.3333333333333428 newPosition: 0 thumbPosition.value: 140
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 139.33333333333331 newPosition: 139.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 139.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 138.33333333333331 newPosition: 138.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 138.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 137 newPosition: 137 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666666666666856 newPosition: 0 thumbPosition.value: 137
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 136 newPosition: 136 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -1 newPosition: 0 thumbPosition.value: 136
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 134 newPosition: 134 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666666666666856 newPosition: 0 thumbPosition.value: 134
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 132.66666666666666 newPosition: 132.66666666666666 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.9999974568684991 newPosition: 0 thumbPosition.value: 132.66666666666666
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 131 newPosition: 131 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -1 newPosition: 0 thumbPosition.value: 131
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 129.66666666666666 newPosition: 129.66666666666666 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666641235351562 newPosition: 0 thumbPosition.value: 129.66666666666666
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 128 newPosition: 128 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -1 newPosition: 0 thumbPosition.value: 128
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 126.33333333333331 newPosition: 126.33333333333331 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 126.33333333333331
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 125 newPosition: 125 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.3333333333333428 newPosition: 0 thumbPosition.value: 125
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 124 newPosition: 124 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666666666666714 newPosition: 0 thumbPosition.value: 124
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 123 newPosition: 123 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666666666666714 newPosition: 0 thumbPosition.value: 123
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 121.66666666666666 newPosition: 121.66666666666666 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666641235351562 newPosition: 0 thumbPosition.value: 121.66666666666666
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 120.33333333333333 newPosition: 120.33333333333333 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 120.33333333333333
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 118.66666666666666 newPosition: 118.66666666666666 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666641235351562 newPosition: 0 thumbPosition.value: 118.66666666666666
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 117.33333333333333 newPosition: 117.33333333333333 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 117.33333333333333
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 116.33333333333333 newPosition: 116.33333333333333 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -1.0000025431315152 newPosition: 0 thumbPosition.value: 116.33333333333333
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 115 newPosition: 115 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.3333333333333428 newPosition: 0 thumbPosition.value: 115
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 114.33333333333333 newPosition: 114.33333333333333 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.33333587646484375 newPosition: 0 thumbPosition.value: 114.33333333333333
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 113.66666666666666 newPosition: 113.66666666666666 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.33333079020182765 newPosition: 0 thumbPosition.value: 113.66666666666666
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 113 newPosition: 113 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.3333333333333428 newPosition: 0 thumbPosition.value: 113
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 112.33333333333333 newPosition: 112.33333333333333 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.6666692097981866 newPosition: 0 thumbPosition.value: 112.33333333333333
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 111.33333333333333 newPosition: 111.33333333333333 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -1.3333358764648438 newPosition: 0 thumbPosition.value: 111.33333333333333
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onUpdate] event.x: 109 newPosition: 109 thumbPosition.value: 0
+ LOG  [WORKLET onUpdate] Calculated newValue: 4
+ LOG  [Slider updateLocalValue] Setting localValue to: 4
+ LOG  [WORKLET onUpdate] event.x: -0.3333333333333428 newPosition: 0 thumbPosition.value: 109
+ LOG  [WORKLET onUpdate] Calculated newValue: 1
+ LOG  [Slider updateLocalValue] Setting localValue to: 1
+ LOG  [WORKLET onEnd] Starting - thumbPosition.value: 0
+ LOG  [WORKLET onEnd] Calculated finalValue: 1
+ LOG  [WORKLET onEnd] Springing to finalPosition: 0
+ LOG  [WORKLET onEnd] Setting isDragging = false
+ LOG  [WORKLET onEnd] Calling onDragEnd with finalValue: 1
+ LOG  [Slider onDragEnd] Calling parent onChange with finalValue: 1
+ LOG  [LoggerScreen Rating onChange] criteria: smoothness value: 1
+ LOG  [Slider onDragEnd] Parent onChange returned
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 1 label: ✨ Smoothness
+ LOG  [Slider useEffect] Triggered - value: 1 localValue: 1 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 0
+ LOG  [WORKLET onBegin] Setting isDragging = true
+ LOG  [Slider onDragStart] Called
+ LOG  [WORKLET onUpdate] event.x: 22.22221883138019 newPosition: 22.22221883138019 thumbPosition.value: 159.11111111111111
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 159.11111481984454 newPosition: 159.11111481984454 thumbPosition.value: 22.22221883138019
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 23.888885498046875 newPosition: 23.888885498046875 thumbPosition.value: 159.11111481984454
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 160.44444783528644 newPosition: 160.44444783528644 thumbPosition.value: 23.888885498046875
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 27.22222391764322 newPosition: 27.22222391764322 thumbPosition.value: 160.44444783528644
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 161.77777576446533 newPosition: 161.77777576446533 thumbPosition.value: 27.22222391764322
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 28.555562337239564 newPosition: 28.555562337239564 thumbPosition.value: 161.77777576446533
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 163.1111046473185 newPosition: 163.1111046473185 thumbPosition.value: 28.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 29.888900756835938 newPosition: 29.888900756835938 thumbPosition.value: 163.1111046473185
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 165.11109924316406 newPosition: 165.11109924316406 thumbPosition.value: 29.888900756835938
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 31.222234090169252 newPosition: 31.222234090169252 thumbPosition.value: 165.11109924316406
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 166.11109860738117 newPosition: 166.11109860738117 thumbPosition.value: 31.222234090169252
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 32.22223409016925 newPosition: 32.22223409016925 thumbPosition.value: 166.11109860738117
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 167.11109860738117 newPosition: 167.11109860738117 thumbPosition.value: 32.22223409016925
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 33.22223409016925 newPosition: 33.22223409016925 thumbPosition.value: 167.11109860738117
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 168.11109860738117 newPosition: 168.11109860738117 thumbPosition.value: 33.22223409016925
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 34.22223409016925 newPosition: 34.22223409016925 thumbPosition.value: 168.11109860738117
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 169.11109860738117 newPosition: 169.11109860738117 thumbPosition.value: 34.22223409016925
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 35.22223409016925 newPosition: 35.22223409016925 thumbPosition.value: 169.11109860738117
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 169.77776527404785 newPosition: 169.77776527404785 thumbPosition.value: 35.22223409016925
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 36.555562337239564 newPosition: 36.555562337239564 thumbPosition.value: 169.77776527404785
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 170.77777036031085 newPosition: 170.77777036031085 thumbPosition.value: 36.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 37.555562337239564 newPosition: 37.555562337239564 thumbPosition.value: 170.77777036031085
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 171.77777036031085 newPosition: 171.77777036031085 thumbPosition.value: 37.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 38.88889567057291 newPosition: 38.88889567057291 thumbPosition.value: 171.77777036031085
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 172.77777163187662 newPosition: 172.77777163187662 thumbPosition.value: 38.88889567057291
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 39.555562337239564 newPosition: 39.555562337239564 thumbPosition.value: 172.77777163187662
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 173.77777036031085 newPosition: 173.77777036031085 thumbPosition.value: 39.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 40.555562337239564 newPosition: 40.555562337239564 thumbPosition.value: 173.77777036031085
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 174.77777036031085 newPosition: 174.77777036031085 thumbPosition.value: 40.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 41.22222900390625 newPosition: 41.22222900390625 thumbPosition.value: 174.77777036031085
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 175.77777099609375 newPosition: 175.77777099609375 thumbPosition.value: 41.22222900390625
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 42.555562337239564 newPosition: 42.555562337239564 thumbPosition.value: 175.77777099609375
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 177.1111036936442 newPosition: 177.1111036936442 thumbPosition.value: 42.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 42.88890075683594 newPosition: 42.88890075683594 thumbPosition.value: 177.1111036936442
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 177.77776590983072 newPosition: 177.77776590983072 thumbPosition.value: 42.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 43.22222900390625 newPosition: 43.22222900390625 thumbPosition.value: 177.77776590983072
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 178.11110432942706 newPosition: 178.11110432942706 thumbPosition.value: 43.22222900390625
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 43.555567423502595 newPosition: 43.555567423502595 thumbPosition.value: 178.11110432942706
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 178.44443321228027 newPosition: 178.44443321228027 thumbPosition.value: 43.555567423502595
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 44.22223917643228 newPosition: 44.22223917643228 thumbPosition.value: 178.44443321228027
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 179.1110947926839 newPosition: 179.1110947926839 thumbPosition.value: 44.22223917643228
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 44.555567423502595 newPosition: 44.555567423502595 thumbPosition.value: 179.1110947926839
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 179.7777665456136 newPosition: 179.7777665456136 thumbPosition.value: 44.555567423502595
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 45.555562337239564 newPosition: 45.555562337239564 thumbPosition.value: 179.7777665456136
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 180.1111036936442 newPosition: 180.1111036936442 thumbPosition.value: 45.555562337239564
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 45.88890075683594 newPosition: 45.88890075683594 thumbPosition.value: 180.1111036936442
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 180.44443257649738 newPosition: 180.44443257649738 thumbPosition.value: 45.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 46.555572509765625 newPosition: 46.555572509765625 thumbPosition.value: 180.44443257649738
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 181.11109415690103 newPosition: 181.11109415690103 thumbPosition.value: 46.555572509765625
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 47.22223409016925 newPosition: 47.22223409016925 thumbPosition.value: 181.11109415690103
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 181.44443384806314 newPosition: 181.44443384806314 thumbPosition.value: 47.22223409016925
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 47.555572509765625 newPosition: 47.555572509765625 thumbPosition.value: 181.44443384806314
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 181.7777608235677 newPosition: 181.7777608235677 thumbPosition.value: 47.555572509765625
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 47.88891092936197 newPosition: 47.88891092936197 thumbPosition.value: 181.7777608235677
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 182.11108779907227 newPosition: 182.11108779907227 thumbPosition.value: 47.88891092936197
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 48.222249348958314 newPosition: 48.222249348958314 thumbPosition.value: 182.11108779907227
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 182.44441858927408 newPosition: 182.44441858927408 thumbPosition.value: 48.222249348958314
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 48.888921101888 newPosition: 48.888921101888 thumbPosition.value: 182.44441858927408
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 182.7777468363444 newPosition: 182.7777468363444 thumbPosition.value: 48.888921101888
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 49.222259521484375 newPosition: 49.222259521484375 thumbPosition.value: 182.7777468363444
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 183.11107381184894 newPosition: 183.11107381184894 thumbPosition.value: 49.222259521484375
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 49.88893127441406 newPosition: 49.88893127441406 thumbPosition.value: 183.11107381184894
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 183.44440205891925 newPosition: 183.44440205891925 thumbPosition.value: 49.88893127441406
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 50.55560302734375 newPosition: 50.55560302734375 thumbPosition.value: 183.44440205891925
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 184.1110636393229 newPosition: 184.1110636393229 thumbPosition.value: 50.55560302734375
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 50.88893127441406 newPosition: 50.88893127441406 thumbPosition.value: 184.1110636393229
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 184.44440205891925 newPosition: 184.44440205891925 thumbPosition.value: 50.88893127441406
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 51.22226969401041 newPosition: 51.22226969401041 thumbPosition.value: 184.44440205891925
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 184.77772903442383 newPosition: 184.77772903442383 thumbPosition.value: 51.22226969401041
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 51.55560811360675 newPosition: 51.55560811360675 thumbPosition.value: 184.77772903442383
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 185.11105982462564 newPosition: 185.11105982462564 thumbPosition.value: 51.55560811360675
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 52.22227986653644 newPosition: 52.22227986653644 thumbPosition.value: 185.11105982462564
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 185.44438807169595 newPosition: 185.44438807169595 thumbPosition.value: 52.22227986653644
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 52.55561828613281 newPosition: 52.55561828613281 thumbPosition.value: 185.44438807169595
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 186.11104838053384 newPosition: 186.11104838053384 thumbPosition.value: 52.55561828613281
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 52.888946533203125 newPosition: 52.888946533203125 thumbPosition.value: 186.11104838053384
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 186.4443868001302 newPosition: 186.4443868001302 thumbPosition.value: 52.888946533203125
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 53.22228495279947 newPosition: 53.22228495279947 thumbPosition.value: 186.4443868001302
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 186.77771377563477 newPosition: 186.77771377563477 thumbPosition.value: 53.22228495279947
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 53.555623372395814 newPosition: 53.555623372395814 thumbPosition.value: 186.77771377563477
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 187.11104456583658 newPosition: 187.11104456583658 thumbPosition.value: 53.555623372395814
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 53.88896179199219 newPosition: 53.88896179199219 thumbPosition.value: 187.11104456583658
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 187.44437154134113 newPosition: 187.44437154134113 thumbPosition.value: 53.88896179199219
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 54.22230021158853 newPosition: 54.22230021158853 thumbPosition.value: 187.44437154134113
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 187.7776985168457 newPosition: 187.7776985168457 thumbPosition.value: 54.22230021158853
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 54.55563863118488 newPosition: 54.55563863118488 thumbPosition.value: 187.7776985168457
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 188.11102930704752 newPosition: 188.11102930704752 thumbPosition.value: 54.55563863118488
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onEnd] Starting - thumbPosition.value: 188.11102930704752
+ LOG  [WORKLET onEnd] Calculated finalValue: 6
+ LOG  [WORKLET onEnd] Springing to finalPosition: 198.88888888888889
+ LOG  [WORKLET onEnd] Setting isDragging = false
+ LOG  [WORKLET onEnd] Calling onDragEnd with finalValue: 6
+ LOG  [Slider onDragEnd] Calling parent onChange with finalValue: 6
+ LOG  [LoggerScreen Rating onChange] criteria: airtime value: 6
+ LOG  [Slider onDragEnd] Parent onChange returned
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 6 label: ☁️ Airtime
+ LOG  [Slider useEffect] Triggered - value: 6 localValue: 6 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 198.88888888888889
+ LOG  [WORKLET onBegin] Setting isDragging = true
+ LOG  [Slider onDragStart] Called
+ LOG  [WORKLET onUpdate] event.x: 28.22221883138019 newPosition: 28.22221883138019 thumbPosition.value: 159.11111111111111
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 159.11111481984454 newPosition: 159.11111481984454 thumbPosition.value: 28.22221883138019
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 30.22221883138019 newPosition: 30.22221883138019 thumbPosition.value: 159.11111481984454
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 161.11111386617023 newPosition: 161.11111386617023 thumbPosition.value: 30.22221883138019
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 34.22221883138019 newPosition: 34.22221883138019 thumbPosition.value: 161.11111386617023
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 166.11111386617023 newPosition: 166.11111386617023 thumbPosition.value: 34.22221883138019
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 36.55555216471353 newPosition: 36.55555216471353 thumbPosition.value: 166.11111386617023
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 168.111115137736 newPosition: 168.111115137736 thumbPosition.value: 36.55555216471353
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 38.888885498046875 newPosition: 38.888885498046875 thumbPosition.value: 168.111115137736
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 170.11111450195312 newPosition: 170.11111450195312 thumbPosition.value: 38.888885498046875
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 40.888885498046875 newPosition: 40.888885498046875 thumbPosition.value: 170.11111450195312
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 171.77778116861978 newPosition: 171.77778116861978 thumbPosition.value: 40.888885498046875
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 42.888880411783845 newPosition: 42.888880411783845 thumbPosition.value: 171.77778116861978
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 173.11112022399902 newPosition: 173.11112022399902 thumbPosition.value: 42.888880411783845
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 44.55555216471353 newPosition: 44.55555216471353 thumbPosition.value: 173.11112022399902
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 174.44444847106934 newPosition: 174.44444847106934 thumbPosition.value: 44.55555216471353
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 46.22222391764322 newPosition: 46.22222391764322 thumbPosition.value: 174.44444847106934
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 176.11110814412433 newPosition: 176.11110814412433 thumbPosition.value: 46.22222391764322
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 47.55555216471353 newPosition: 47.55555216471353 thumbPosition.value: 176.11110814412433
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 177.77777989705402 newPosition: 177.77777989705402 thumbPosition.value: 47.55555216471353
+ LOG  [WORKLET onUpdate] Calculated newValue: 5
+ LOG  [Slider updateLocalValue] Setting localValue to: 5
+ LOG  [WORKLET onUpdate] event.x: 48.888880411783845 newPosition: 48.888880411783845 thumbPosition.value: 177.77777989705402
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 179.1111183166504 newPosition: 179.1111183166504 thumbPosition.value: 48.888880411783845
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 49.888885498046875 newPosition: 49.888885498046875 thumbPosition.value: 179.1111183166504
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 180.44444783528644 newPosition: 180.44444783528644 thumbPosition.value: 49.888885498046875
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 50.88889058430988 newPosition: 50.88889058430988 thumbPosition.value: 180.44444783528644
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 181.77777735392252 newPosition: 181.77777735392252 thumbPosition.value: 50.88889058430988
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 51.88889567057291 newPosition: 51.88889567057291 thumbPosition.value: 181.77777735392252
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 183.11110305786133 newPosition: 183.11110305786133 thumbPosition.value: 51.88889567057291
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 52.88890075683594 newPosition: 52.88890075683594 thumbPosition.value: 183.11110305786133
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 184.44443257649738 newPosition: 184.44443257649738 thumbPosition.value: 52.88890075683594
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 54.22223917643228 newPosition: 54.22223917643228 thumbPosition.value: 184.44443257649738
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 185.77775955200195 newPosition: 185.77775955200195 thumbPosition.value: 54.22223917643228
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 55.55557759602863 newPosition: 55.55557759602863 thumbPosition.value: 185.77775955200195
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 187.11109034220377 newPosition: 187.11109034220377 thumbPosition.value: 55.55557759602863
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 56.888916015625 newPosition: 56.888916015625 thumbPosition.value: 187.11109034220377
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 190.44441731770831 newPosition: 190.44441731770831 thumbPosition.value: 56.888916015625
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 59.222254435221345 newPosition: 59.222254435221345 thumbPosition.value: 190.44441731770831
+ LOG  [WORKLET onUpdate] Calculated newValue: 2
+ LOG  [Slider updateLocalValue] Setting localValue to: 2
+ LOG  [WORKLET onUpdate] event.x: 191.44441095987955 newPosition: 191.44441095987955 thumbPosition.value: 59.222254435221345
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 60.55558776855469 newPosition: 60.55558776855469 thumbPosition.value: 191.44441095987955
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 192.4444122314453 newPosition: 192.4444122314453 thumbPosition.value: 60.55558776855469
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 61.222254435221345 newPosition: 61.222254435221345 thumbPosition.value: 192.4444122314453
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 193.1110776265462 newPosition: 193.1110776265462 thumbPosition.value: 61.222254435221345
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 61.888916015625 newPosition: 61.888916015625 thumbPosition.value: 193.1110776265462
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 194.111083984375 newPosition: 194.111083984375 thumbPosition.value: 61.888916015625
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 62.55558268229163 newPosition: 62.55558268229163 thumbPosition.value: 194.111083984375
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 194.44441604614258 newPosition: 194.44441604614258 thumbPosition.value: 62.55558268229163
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 63.222254435221316 newPosition: 63.222254435221316 thumbPosition.value: 194.44441604614258
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 195.7777442932129 newPosition: 195.7777442932129 thumbPosition.value: 63.222254435221316
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 63.888926188151004 newPosition: 63.888926188151004 thumbPosition.value: 195.7777442932129
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 196.1110725402832 newPosition: 196.1110725402832 thumbPosition.value: 63.888926188151004
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 64.55559794108069 newPosition: 64.55559794108069 thumbPosition.value: 196.1110725402832
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 196.77773412068683 newPosition: 196.77773412068683 thumbPosition.value: 64.55559794108069
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 64.888926188151 newPosition: 64.888926188151 thumbPosition.value: 196.77773412068683
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 197.44440587361652 newPosition: 197.44440587361652 thumbPosition.value: 64.888926188151
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 65.55558776855469 newPosition: 65.55558776855469 thumbPosition.value: 197.44440587361652
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 197.77774556477863 newPosition: 197.77774556477863 thumbPosition.value: 65.55558776855469
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 66.22225952148438 newPosition: 66.22225952148438 thumbPosition.value: 197.77774556477863
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onUpdate] event.x: 198.11107381184894 newPosition: 198.11107381184894 thumbPosition.value: 66.22225952148438
+ LOG  [WORKLET onUpdate] Calculated newValue: 6
+ LOG  [Slider updateLocalValue] Setting localValue to: 6
+ LOG  [WORKLET onUpdate] event.x: 66.88893127441406 newPosition: 66.88893127441406 thumbPosition.value: 198.11107381184894
+ LOG  [WORKLET onUpdate] Calculated newValue: 3
+ LOG  [Slider updateLocalValue] Setting localValue to: 3
+ LOG  [WORKLET onEnd] Starting - thumbPosition.value: 66.88893127441406
+ LOG  [WORKLET onEnd] Calculated finalValue: 3
+ LOG  [WORKLET onEnd] Springing to finalPosition: 79.55555555555556
+ LOG  [WORKLET onEnd] Setting isDragging = false
+ LOG  [WORKLET onEnd] Calling onDragEnd with finalValue: 3
+ LOG  [Slider onDragEnd] Calling parent onChange with finalValue: 3
+ LOG  [LoggerScreen Rating onChange] criteria: theming value: 3
+ LOG  [Slider onDragEnd] Parent onChange returned
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 3 label: 🎨 Theming
+ LOG  [Slider useEffect] Triggered - value: 3 localValue: 3 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 79.55555555555556
+ LOG  [WORKLET onBegin] Setting isDragging = true
+ LOG  [Slider onDragStart] Called
+ LOG  [WORKLET onUpdate] event.x: 32.473332722981766 newPosition: 32.473332722981766 thumbPosition.value: 60.86000000000001
+ LOG  [WORKLET onUpdate] Calculated newValue: 9
+ LOG  [Slider updateLocalValue] Setting localValue to: 9
+ LOG  [WORKLET onUpdate] event.x: 60.85999997456868 newPosition: 60.85999997456868 thumbPosition.value: 32.473332722981766
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 35.473332722981766 newPosition: 35.473332722981766 thumbPosition.value: 60.85999997456868
+ LOG  [WORKLET onUpdate] Calculated newValue: 10
+ LOG  [Slider updateLocalValue] Setting localValue to: 10
+ LOG  [WORKLET onUpdate] event.x: 63.19333330790201 newPosition: 63.19333330790201 thumbPosition.value: 35.473332722981766
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 36.80666732788086 newPosition: 36.80666732788086 thumbPosition.value: 63.19333330790201
+ LOG  [WORKLET onUpdate] Calculated newValue: 10
+ LOG  [Slider updateLocalValue] Setting localValue to: 10
+ LOG  [WORKLET onUpdate] event.x: 64.52666600545247 newPosition: 64.52666600545247 thumbPosition.value: 36.80666732788086
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 38.14000193277994 newPosition: 38.14000193277994 thumbPosition.value: 64.52666600545247
+ LOG  [WORKLET onUpdate] Calculated newValue: 11
+ LOG  [Slider updateLocalValue] Setting localValue to: 11
+ LOG  [WORKLET onUpdate] event.x: 66.19333203633626 newPosition: 66.19333203633626 thumbPosition.value: 38.14000193277994
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 39.47333399454752 newPosition: 39.47333399454752 thumbPosition.value: 66.19333203633626
+ LOG  [WORKLET onUpdate] Calculated newValue: 11
+ LOG  [Slider updateLocalValue] Setting localValue to: 11
+ LOG  [WORKLET onUpdate] event.x: 68.19333330790201 newPosition: 68.19333330790201 thumbPosition.value: 39.47333399454752
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 41.47333399454752 newPosition: 41.47333399454752 thumbPosition.value: 68.19333330790201
+ LOG  [WORKLET onUpdate] Calculated newValue: 12
+ LOG  [Slider updateLocalValue] Setting localValue to: 12
+ LOG  [WORKLET onUpdate] event.x: 69.85999997456868 newPosition: 69.85999997456868 thumbPosition.value: 41.47333399454752
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 43.13999938964844 newPosition: 43.13999938964844 thumbPosition.value: 69.85999997456868
+ LOG  [WORKLET onUpdate] Calculated newValue: 12
+ LOG  [Slider updateLocalValue] Setting localValue to: 12
+ LOG  [WORKLET onUpdate] event.x: 71.19333394368489 newPosition: 71.19333394368489 thumbPosition.value: 43.13999938964844
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 44.47333399454752 newPosition: 44.47333399454752 thumbPosition.value: 71.19333394368489
+ LOG  [WORKLET onUpdate] Calculated newValue: 12
+ LOG  [Slider updateLocalValue] Setting localValue to: 12
+ LOG  [WORKLET onUpdate] event.x: 72.52666664123535 newPosition: 72.52666664123535 thumbPosition.value: 44.47333399454752
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 45.47333526611328 newPosition: 45.47333526611328 thumbPosition.value: 72.52666664123535
+ LOG  [WORKLET onUpdate] Calculated newValue: 13
+ LOG  [Slider updateLocalValue] Setting localValue to: 13
+ LOG  [WORKLET onUpdate] event.x: 73.52666473388672 newPosition: 73.52666473388672 thumbPosition.value: 45.47333526611328
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 46.14000193277994 newPosition: 46.14000193277994 thumbPosition.value: 73.52666473388672
+ LOG  [WORKLET onUpdate] Calculated newValue: 13
+ LOG  [Slider updateLocalValue] Setting localValue to: 13
+ LOG  [WORKLET onUpdate] event.x: 74.52666346232095 newPosition: 74.52666346232095 thumbPosition.value: 46.14000193277994
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 47.80666859944661 newPosition: 47.80666859944661 thumbPosition.value: 74.52666346232095
+ LOG  [WORKLET onUpdate] Calculated newValue: 13
+ LOG  [Slider updateLocalValue] Setting localValue to: 13
+ LOG  [WORKLET onUpdate] event.x: 75.52666600545247 newPosition: 75.52666600545247 thumbPosition.value: 47.80666859944661
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 48.80666859944661 newPosition: 48.80666859944661 thumbPosition.value: 75.52666600545247
+ LOG  [WORKLET onUpdate] Calculated newValue: 14
+ LOG  [Slider updateLocalValue] Setting localValue to: 14
+ LOG  [WORKLET onUpdate] event.x: 76.52666600545247 newPosition: 76.52666600545247 thumbPosition.value: 48.80666859944661
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 50.14000193277994 newPosition: 50.14000193277994 thumbPosition.value: 76.52666600545247
+ LOG  [WORKLET onUpdate] Calculated newValue: 14
+ LOG  [Slider updateLocalValue] Setting localValue to: 14
+ LOG  [WORKLET onUpdate] event.x: 77.52666346232095 newPosition: 77.52666346232095 thumbPosition.value: 50.14000193277994
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 51.14000193277994 newPosition: 51.14000193277994 thumbPosition.value: 77.52666346232095
+ LOG  [WORKLET onUpdate] Calculated newValue: 14
+ LOG  [Slider updateLocalValue] Setting localValue to: 14
+ LOG  [WORKLET onUpdate] event.x: 78.8599967956543 newPosition: 78.8599967956543 thumbPosition.value: 51.14000193277994
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 51.806666056315095 newPosition: 51.806666056315095 thumbPosition.value: 78.8599967956543
+ LOG  [WORKLET onUpdate] Calculated newValue: 14
+ LOG  [Slider updateLocalValue] Setting localValue to: 14
+ LOG  [WORKLET onUpdate] event.x: 79.52666600545246 newPosition: 79.52666600545246 thumbPosition.value: 51.806666056315095
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 52.806668599446596 newPosition: 52.806668599446596 thumbPosition.value: 79.52666600545246
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 80.52666600545246 newPosition: 80.52666600545246 thumbPosition.value: 52.806668599446596
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 53.47333526611328 newPosition: 53.47333526611328 thumbPosition.value: 80.52666600545246
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 81.52666473388672 newPosition: 81.52666473388672 thumbPosition.value: 53.47333526611328
+ LOG  [WORKLET onUpdate] Calculated newValue: 23
+ LOG  [Slider updateLocalValue] Setting localValue to: 23
+ LOG  [WORKLET onUpdate] event.x: 54.47333526611328 newPosition: 54.47333526611328 thumbPosition.value: 81.52666473388672
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 82.52666473388672 newPosition: 82.52666473388672 thumbPosition.value: 54.47333526611328
+ LOG  [WORKLET onUpdate] Calculated newValue: 23
+ LOG  [Slider updateLocalValue] Setting localValue to: 23
+ LOG  [WORKLET onUpdate] event.x: 55.47333526611328 newPosition: 55.47333526611328 thumbPosition.value: 82.52666473388672
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 83.52666473388672 newPosition: 83.52666473388672 thumbPosition.value: 55.47333526611328
+ LOG  [WORKLET onUpdate] Calculated newValue: 23
+ LOG  [Slider updateLocalValue] Setting localValue to: 23
+ LOG  [WORKLET onUpdate] event.x: 56.806668599446596 newPosition: 56.806668599446596 thumbPosition.value: 83.52666473388672
+ LOG  [WORKLET onUpdate] Calculated newValue: 16
+ LOG  [Slider updateLocalValue] Setting localValue to: 16
+ LOG  [WORKLET onUpdate] event.x: 84.19333267211914 newPosition: 84.19333267211914 thumbPosition.value: 56.806668599446596
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 57.806671142578125 newPosition: 57.806671142578125 thumbPosition.value: 84.19333267211914
+ LOG  [WORKLET onUpdate] Calculated newValue: 16
+ LOG  [Slider updateLocalValue] Setting localValue to: 16
+ LOG  [WORKLET onUpdate] event.x: 85.19332885742188 newPosition: 85.19332885742188 thumbPosition.value: 57.806671142578125
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 58.47333780924478 newPosition: 58.47333780924478 thumbPosition.value: 85.19332885742188
+ LOG  [WORKLET onUpdate] Calculated newValue: 16
+ LOG  [Slider updateLocalValue] Setting localValue to: 16
+ LOG  [WORKLET onUpdate] event.x: 86.19332758585611 newPosition: 86.19332758585611 thumbPosition.value: 58.47333780924478
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 59.47333780924478 newPosition: 59.47333780924478 thumbPosition.value: 86.19332758585611
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 87.19332758585611 newPosition: 87.19332758585611 thumbPosition.value: 59.47333780924478
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 60.47333780924478 newPosition: 60.47333780924478 thumbPosition.value: 87.19332758585611
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 87.85999425252277 newPosition: 87.85999425252277 thumbPosition.value: 60.47333780924478
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 61.47334035237628 newPosition: 61.47334035237628 thumbPosition.value: 87.85999425252277
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 88.85999425252277 newPosition: 88.85999425252277 thumbPosition.value: 61.47334035237628
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 62.806673685709626 newPosition: 62.806673685709626 thumbPosition.value: 88.85999425252277
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 89.85999170939127 newPosition: 89.85999170939127 thumbPosition.value: 62.806673685709626
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 63.806673685709626 newPosition: 63.806673685709626 thumbPosition.value: 89.85999170939127
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 91.19332504272461 newPosition: 91.19332504272461 thumbPosition.value: 63.806673685709626
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 64.80667114257812 newPosition: 64.80667114257812 thumbPosition.value: 91.19332504272461
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 92.19332885742188 newPosition: 92.19332885742188 thumbPosition.value: 64.80667114257812
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 65.80667114257812 newPosition: 65.80667114257812 thumbPosition.value: 92.19332885742188
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 93.19332885742188 newPosition: 93.19332885742188 thumbPosition.value: 65.80667114257812
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 66.80667114257812 newPosition: 66.80667114257812 thumbPosition.value: 93.19332885742188
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 94.19332885742188 newPosition: 94.19332885742188 thumbPosition.value: 66.80667114257812
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 67.80667114257812 newPosition: 67.80667114257812 thumbPosition.value: 94.19332885742188
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 94.85999552408853 newPosition: 94.85999552408853 thumbPosition.value: 67.80667114257812
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 68.80667368570963 newPosition: 68.80667368570963 thumbPosition.value: 94.85999552408853
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 95.85999170939127 newPosition: 95.85999170939127 thumbPosition.value: 68.80667368570963
+ LOG  [WORKLET onUpdate] Calculated newValue: 27
+ LOG  [Slider updateLocalValue] Setting localValue to: 27
+ LOG  [WORKLET onUpdate] event.x: 69.80667368570963 newPosition: 69.80667368570963 thumbPosition.value: 95.85999170939127
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 96.85999170939127 newPosition: 96.85999170939127 thumbPosition.value: 69.80667368570963
+ LOG  [WORKLET onUpdate] Calculated newValue: 27
+ LOG  [Slider updateLocalValue] Setting localValue to: 27
+ LOG  [WORKLET onUpdate] event.x: 70.80667368570963 newPosition: 70.80667368570963 thumbPosition.value: 96.85999170939127
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 97.85999170939127 newPosition: 97.85999170939127 thumbPosition.value: 70.80667368570963
+ LOG  [WORKLET onUpdate] Calculated newValue: 27
+ LOG  [Slider updateLocalValue] Setting localValue to: 27
+ LOG  [WORKLET onUpdate] event.x: 72.14000701904297 newPosition: 72.14000701904297 thumbPosition.value: 97.85999170939127
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 98.85999298095703 newPosition: 98.85999298095703 thumbPosition.value: 72.14000701904297
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 73.47334035237628 newPosition: 73.47334035237628 thumbPosition.value: 98.85999298095703
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 100.19332758585611 newPosition: 100.19332758585611 thumbPosition.value: 73.47334035237628
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 74.80667114257812 newPosition: 74.80667114257812 thumbPosition.value: 100.19332758585611
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 101.52666219075519 newPosition: 101.52666219075519 thumbPosition.value: 74.80667114257812
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 76.14000193277994 newPosition: 76.14000193277994 thumbPosition.value: 101.52666219075519
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 102.8599967956543 newPosition: 102.8599967956543 thumbPosition.value: 76.14000193277994
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 77.8066660563151 newPosition: 77.8066660563151 thumbPosition.value: 102.8599967956543
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 104.19333267211914 newPosition: 104.19333267211914 thumbPosition.value: 77.8066660563151
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 79.80667114257812 newPosition: 79.80667114257812 thumbPosition.value: 104.19333267211914
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 105.85999552408853 newPosition: 105.85999552408853 thumbPosition.value: 79.80667114257812
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onUpdate] event.x: 81.47334035237628 newPosition: 81.47334035237628 thumbPosition.value: 105.85999552408853
+ LOG  [WORKLET onUpdate] Calculated newValue: 23
+ LOG  [Slider updateLocalValue] Setting localValue to: 23
+ LOG  [WORKLET onUpdate] event.x: 107.8599904378255 newPosition: 107.8599904378255 thumbPosition.value: 81.47334035237628
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onUpdate] event.x: 83.14000701904297 newPosition: 83.14000701904297 thumbPosition.value: 107.8599904378255
+ LOG  [WORKLET onUpdate] Calculated newValue: 23
+ LOG  [Slider updateLocalValue] Setting localValue to: 23
+ LOG  [WORKLET onUpdate] event.x: 110.52665964762369 newPosition: 110.52665964762369 thumbPosition.value: 83.14000701904297
+ LOG  [WORKLET onUpdate] Calculated newValue: 31
+ LOG  [Slider updateLocalValue] Setting localValue to: 31
+ LOG  [WORKLET onUpdate] event.x: 84.80667622884113 newPosition: 84.80667622884113 thumbPosition.value: 110.52665964762369
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 112.19332122802734 newPosition: 112.19332122802734 thumbPosition.value: 84.80667622884113
+ LOG  [WORKLET onUpdate] Calculated newValue: 31
+ LOG  [Slider updateLocalValue] Setting localValue to: 31
+ LOG  [WORKLET onUpdate] event.x: 86.80667877197266 newPosition: 86.80667877197266 thumbPosition.value: 112.19332122802734
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 114.19332122802734 newPosition: 114.19332122802734 thumbPosition.value: 86.80667877197266
+ LOG  [WORKLET onUpdate] Calculated newValue: 32
+ LOG  [Slider updateLocalValue] Setting localValue to: 32
+ LOG  [WORKLET onUpdate] event.x: 89.14001210530597 newPosition: 89.14001210530597 thumbPosition.value: 114.19332122802734
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 116.52665201822916 newPosition: 116.52665201822916 thumbPosition.value: 89.14001210530597
+ LOG  [WORKLET onUpdate] Calculated newValue: 33
+ LOG  [Slider updateLocalValue] Setting localValue to: 33
+ LOG  [WORKLET onUpdate] event.x: 91.80668385823566 newPosition: 91.80668385823566 thumbPosition.value: 116.52665201822916
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 118.85998026529947 newPosition: 118.85998026529947 thumbPosition.value: 91.80668385823566
+ LOG  [WORKLET onUpdate] Calculated newValue: 33
+ LOG  [Slider updateLocalValue] Setting localValue to: 33
+ LOG  [WORKLET onUpdate] event.x: 94.14002227783203 newPosition: 94.14002227783203 thumbPosition.value: 118.85998026529947
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 121.19331105550128 newPosition: 121.19331105550128 thumbPosition.value: 94.14002227783203
+ LOG  [WORKLET onUpdate] Calculated newValue: 34
+ LOG  [Slider updateLocalValue] Setting localValue to: 34
+ LOG  [WORKLET onUpdate] event.x: 96.47335306803384 newPosition: 96.47335306803384 thumbPosition.value: 121.19331105550128
+ LOG  [WORKLET onUpdate] Calculated newValue: 27
+ LOG  [Slider updateLocalValue] Setting localValue to: 27
+ LOG  [WORKLET onUpdate] event.x: 123.19331614176431 newPosition: 123.19331614176431 thumbPosition.value: 96.47335306803384
+ LOG  [WORKLET onUpdate] Calculated newValue: 34
+ LOG  [Slider updateLocalValue] Setting localValue to: 34
+ LOG  [WORKLET onUpdate] event.x: 98.47335306803384 newPosition: 98.47335306803384 thumbPosition.value: 123.19331614176431
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 124.85998280843097 newPosition: 124.85998280843097 thumbPosition.value: 98.47335306803384
+ LOG  [WORKLET onUpdate] Calculated newValue: 35
+ LOG  [Slider updateLocalValue] Setting localValue to: 35
+ LOG  [WORKLET onUpdate] event.x: 100.1400146484375 newPosition: 100.1400146484375 thumbPosition.value: 124.85998280843097
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 126.52665201822916 newPosition: 126.52665201822916 thumbPosition.value: 100.1400146484375
+ LOG  [WORKLET onUpdate] Calculated newValue: 35
+ LOG  [Slider updateLocalValue] Setting localValue to: 35
+ LOG  [WORKLET onUpdate] event.x: 101.80668385823566 newPosition: 101.80668385823566 thumbPosition.value: 126.52665201822916
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 127.85998026529947 newPosition: 127.85998026529947 thumbPosition.value: 101.80668385823566
+ LOG  [WORKLET onUpdate] Calculated newValue: 36
+ LOG  [Slider updateLocalValue] Setting localValue to: 36
+ LOG  [WORKLET onUpdate] event.x: 103.47335561116535 newPosition: 103.47335561116535 thumbPosition.value: 127.85998026529947
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 129.19330851236978 newPosition: 129.19330851236978 thumbPosition.value: 103.47335561116535
+ LOG  [WORKLET onUpdate] Calculated newValue: 36
+ LOG  [Slider updateLocalValue] Setting localValue to: 36
+ LOG  [WORKLET onUpdate] event.x: 104.80669403076172 newPosition: 104.80669403076172 thumbPosition.value: 129.19330851236978
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 130.5266393025716 newPosition: 130.5266393025716 thumbPosition.value: 104.80669403076172
+ LOG  [WORKLET onUpdate] Calculated newValue: 36
+ LOG  [Slider updateLocalValue] Setting localValue to: 36
+ LOG  [WORKLET onUpdate] event.x: 105.80669148763019 newPosition: 105.80669148763019 thumbPosition.value: 130.5266393025716
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onUpdate] event.x: 131.85997263590494 newPosition: 131.85997263590494 thumbPosition.value: 105.80669148763019
+ LOG  [WORKLET onUpdate] Calculated newValue: 37
+ LOG  [Slider updateLocalValue] Setting localValue to: 37
+ LOG  [WORKLET onUpdate] event.x: 107.14002990722656 newPosition: 107.14002990722656 thumbPosition.value: 131.85997263590494
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onUpdate] event.x: 133.5266367594401 newPosition: 133.5266367594401 thumbPosition.value: 107.14002990722656
+ LOG  [WORKLET onUpdate] Calculated newValue: 37
+ LOG  [Slider updateLocalValue] Setting localValue to: 37
+ LOG  [WORKLET onUpdate] event.x: 108.80669911702472 newPosition: 108.80669911702472 thumbPosition.value: 133.5266367594401
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onUpdate] event.x: 134.8599650065104 newPosition: 134.8599650065104 thumbPosition.value: 108.80669911702472
+ LOG  [WORKLET onUpdate] Calculated newValue: 38
+ LOG  [Slider updateLocalValue] Setting localValue to: 38
+ LOG  [WORKLET onUpdate] event.x: 110.80670420328775 newPosition: 110.80670420328775 thumbPosition.value: 134.8599650065104
+ LOG  [WORKLET onUpdate] Calculated newValue: 31
+ LOG  [Slider updateLocalValue] Setting localValue to: 31
+ LOG  [WORKLET onUpdate] event.x: 137.19329833984375 newPosition: 137.19329833984375 thumbPosition.value: 110.80670420328775
+ LOG  [WORKLET onUpdate] Calculated newValue: 38
+ LOG  [Slider updateLocalValue] Setting localValue to: 38
+ LOG  [WORKLET onUpdate] event.x: 112.80670166015625 newPosition: 112.80670166015625 thumbPosition.value: 137.19329833984375
+ LOG  [WORKLET onUpdate] Calculated newValue: 32
+ LOG  [Slider updateLocalValue] Setting localValue to: 32
+ LOG  [WORKLET onUpdate] event.x: 139.8599650065104 newPosition: 139.8599650065104 thumbPosition.value: 112.80670166015625
+ LOG  [WORKLET onUpdate] Calculated newValue: 39
+ LOG  [Slider updateLocalValue] Setting localValue to: 39
+ LOG  [WORKLET onUpdate] event.x: 115.1400375366211 newPosition: 115.1400375366211 thumbPosition.value: 139.8599650065104
+ LOG  [WORKLET onUpdate] Calculated newValue: 32
+ LOG  [Slider updateLocalValue] Setting localValue to: 32
+ LOG  [WORKLET onUpdate] event.x: 142.19329579671222 newPosition: 142.19329579671222 thumbPosition.value: 115.1400375366211
+ LOG  [WORKLET onUpdate] Calculated newValue: 40
+ LOG  [Slider updateLocalValue] Setting localValue to: 40
+ LOG  [WORKLET onUpdate] event.x: 117.14003499348956 newPosition: 117.14003499348956 thumbPosition.value: 142.19329579671222
+ LOG  [WORKLET onUpdate] Calculated newValue: 33
+ LOG  [Slider updateLocalValue] Setting localValue to: 33
+ LOG  [WORKLET onUpdate] event.x: 143.8599624633789 newPosition: 143.8599624633789 thumbPosition.value: 117.14003499348956
+ LOG  [WORKLET onUpdate] Calculated newValue: 40
+ LOG  [Slider updateLocalValue] Setting localValue to: 40
+ LOG  [WORKLET onUpdate] event.x: 119.14004516601562 newPosition: 119.14004516601562 thumbPosition.value: 143.8599624633789
+ LOG  [WORKLET onUpdate] Calculated newValue: 33
+ LOG  [Slider updateLocalValue] Setting localValue to: 33
+ LOG  [WORKLET onUpdate] event.x: 145.526621500651 newPosition: 145.526621500651 thumbPosition.value: 119.14004516601562
+ LOG  [WORKLET onUpdate] Calculated newValue: 41
+ LOG  [Slider updateLocalValue] Setting localValue to: 41
+ LOG  [WORKLET onUpdate] event.x: 120.80670674641925 newPosition: 120.80670674641925 thumbPosition.value: 145.526621500651
+ LOG  [WORKLET onUpdate] Calculated newValue: 34
+ LOG  [Slider updateLocalValue] Setting localValue to: 34
+ LOG  [WORKLET onUpdate] event.x: 146.85995737711585 newPosition: 146.85995737711585 thumbPosition.value: 120.80670674641925
+ LOG  [WORKLET onUpdate] Calculated newValue: 41
+ LOG  [Slider updateLocalValue] Setting localValue to: 41
+ LOG  [WORKLET onUpdate] event.x: 121.80671183268225 newPosition: 121.80671183268225 thumbPosition.value: 146.85995737711585
+ LOG  [WORKLET onUpdate] Calculated newValue: 34
+ LOG  [Slider updateLocalValue] Setting localValue to: 34
+ LOG  [WORKLET onUpdate] event.x: 148.19329071044922 newPosition: 148.19329071044922 thumbPosition.value: 121.80671183268225
+ LOG  [WORKLET onUpdate] Calculated newValue: 41
+ LOG  [Slider updateLocalValue] Setting localValue to: 41
+ LOG  [WORKLET onUpdate] event.x: 122.47336832682288 newPosition: 122.47336832682288 thumbPosition.value: 148.19329071044922
+ LOG  [WORKLET onUpdate] Calculated newValue: 34
+ LOG  [Slider updateLocalValue] Setting localValue to: 34
+ LOG  [WORKLET onUpdate] event.x: 148.8599675496419 newPosition: 148.8599675496419 thumbPosition.value: 122.47336832682288
+ LOG  [WORKLET onUpdate] Calculated newValue: 42
+ LOG  [Slider updateLocalValue] Setting localValue to: 42
+ LOG  [WORKLET onUpdate] event.x: 123.14002990722656 newPosition: 123.14002990722656 thumbPosition.value: 148.8599675496419
+ LOG  [WORKLET onUpdate] Calculated newValue: 34
+ LOG  [Slider updateLocalValue] Setting localValue to: 34
+ LOG  [WORKLET onEnd] Starting - thumbPosition.value: 123.14002990722656
+ LOG  [WORKLET onEnd] Calculated finalValue: 34
+ LOG  [WORKLET onEnd] Springing to finalPosition: 121.72000000000001
+ LOG  [WORKLET onEnd] Setting isDragging = false
+ LOG  [WORKLET onEnd] Calling onDragEnd with finalValue: 34
+ LOG  [Slider onDragEnd] Calling parent onChange with finalValue: 34
+ LOG  [LoggerScreen handleWeightChange] START - criteriaId: thrill newWeight: 34
+ LOG  [LoggerScreen handleWeightChange] Current criteriaWeights: {"airtime": 17, "inversions": 17, "smoothness": 17, "speed": 17, "theming": 17, "thrill": 17}
+ LOG  [LoggerScreen handleWeightChange] Locked criteria: []
+ LOG  [LoggerScreen handleWeightChange] Other unlocked: ["smoothness", "airtime", "theming", "inversions", "speed"]
+ LOG  [LoggerScreen handleWeightChange] Locked total: 0
+ LOG  [LoggerScreen handleWeightChange] Max allowed: 100 Constrained weight: 34
+ LOG  [LoggerScreen handleWeightChange] Distributing remaining: 66 Per criteria: 13.2
+ LOG  [LoggerScreen handleWeightChange] Fixing rounding - total: 99 diff: 1
+ LOG  [LoggerScreen handleWeightChange] NEW WEIGHTS: {"airtime": 13, "inversions": 13, "smoothness": 14, "speed": 13, "theming": 13, "thrill": 34}
+ LOG  [LoggerScreen handleWeightChange] Calling setCriteriaWeights
+ LOG  [LoggerScreen handleWeightChange] END
+ LOG  [Slider onDragEnd] Parent onChange returned
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 34 label: ⚡ Thrill/Intensity
+ LOG  [Slider useEffect] Triggered - value: 34 localValue: 34 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 121.72000000000001
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 14 label: ✨ Smoothness
+ LOG  [Slider useEffect] Triggered - value: 14 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 50.120000000000005
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 13 label: ☁️ Airtime
+ LOG  [Slider useEffect] Triggered - value: 13 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 46.54
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 13 label: 🎨 Theming
+ LOG  [Slider useEffect] Triggered - value: 13 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 46.54
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 13 label: 🔄 Inversions
+ LOG  [Slider useEffect] Triggered - value: 13 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 46.54
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 13 label: 💨 Speed
+ LOG  [Slider useEffect] Triggered - value: 13 localValue: 17 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 46.54
+ LOG  [WORKLET onBegin] Setting isDragging = true
+ LOG  [Slider onDragStart] Called
+ LOG  [WORKLET onUpdate] event.x: 23.880001068115234 newPosition: 23.880001068115234 thumbPosition.value: 50.120000000000005
+ LOG  [WORKLET onUpdate] Calculated newValue: 7
+ LOG  [Slider updateLocalValue] Setting localValue to: 7
+ LOG  [WORKLET onUpdate] event.x: 50.119998931884766 newPosition: 50.119998931884766 thumbPosition.value: 23.880001068115234
+ LOG  [WORKLET onUpdate] Calculated newValue: 14
+ LOG  [Slider updateLocalValue] Setting localValue to: 14
+ LOG  [WORKLET onUpdate] event.x: 27.213334401448563 newPosition: 27.213334401448563 thumbPosition.value: 50.119998931884766
+ LOG  [WORKLET onUpdate] Calculated newValue: 8
+ LOG  [Slider updateLocalValue] Setting localValue to: 8
+ LOG  [WORKLET onUpdate] event.x: 53.45333258310953 newPosition: 53.45333258310953 thumbPosition.value: 27.213334401448563
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 30.213335673014313 newPosition: 30.213335673014313 thumbPosition.value: 53.45333258310953
+ LOG  [WORKLET onUpdate] Calculated newValue: 8
+ LOG  [Slider updateLocalValue] Setting localValue to: 8
+ LOG  [WORKLET onUpdate] event.x: 61.11999829610188 newPosition: 61.11999829610188 thumbPosition.value: 30.213335673014313
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 33.880001068115234 newPosition: 33.880001068115234 thumbPosition.value: 61.11999829610188
+ LOG  [WORKLET onUpdate] Calculated newValue: 9
+ LOG  [Slider updateLocalValue] Setting localValue to: 9
+ LOG  [WORKLET onUpdate] event.x: 65.11999893188477 newPosition: 65.11999893188477 thumbPosition.value: 33.880001068115234
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 37.54666773478189 newPosition: 37.54666773478189 thumbPosition.value: 65.11999893188477
+ LOG  [WORKLET onUpdate] Calculated newValue: 10
+ LOG  [Slider updateLocalValue] Setting localValue to: 10
+ LOG  [WORKLET onUpdate] event.x: 68.45333290100098 newPosition: 68.45333290100098 thumbPosition.value: 37.54666773478189
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 40.546669006347656 newPosition: 40.546669006347656 thumbPosition.value: 68.45333290100098
+ LOG  [WORKLET onUpdate] Calculated newValue: 11
+ LOG  [Slider updateLocalValue] Setting localValue to: 11
+ LOG  [WORKLET onUpdate] event.x: 71.119997660319 newPosition: 71.119997660319 thumbPosition.value: 40.546669006347656
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 42.54666773478189 newPosition: 42.54666773478189 thumbPosition.value: 71.119997660319
+ LOG  [WORKLET onUpdate] Calculated newValue: 12
+ LOG  [Slider updateLocalValue] Setting localValue to: 12
+ LOG  [WORKLET onUpdate] event.x: 73.45333290100098 newPosition: 73.45333290100098 thumbPosition.value: 42.54666773478189
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 44.546669006347656 newPosition: 44.546669006347656 thumbPosition.value: 73.45333290100098
+ LOG  [WORKLET onUpdate] Calculated newValue: 12
+ LOG  [Slider updateLocalValue] Setting localValue to: 12
+ LOG  [WORKLET onUpdate] event.x: 75.45333099365234 newPosition: 75.45333099365234 thumbPosition.value: 44.546669006347656
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 48.21333567301431 newPosition: 48.21333567301431 thumbPosition.value: 75.45333099365234
+ LOG  [WORKLET onUpdate] Calculated newValue: 13
+ LOG  [Slider updateLocalValue] Setting localValue to: 13
+ LOG  [WORKLET onUpdate] event.x: 77.45332972208658 newPosition: 77.45332972208658 thumbPosition.value: 48.21333567301431
+ LOG  [WORKLET onUpdate] Calculated newValue: 22
+ LOG  [Slider updateLocalValue] Setting localValue to: 22
+ LOG  [WORKLET onUpdate] event.x: 50.21333567301431 newPosition: 50.21333567301431 thumbPosition.value: 77.45332972208658
+ LOG  [WORKLET onUpdate] Calculated newValue: 14
+ LOG  [Slider updateLocalValue] Setting localValue to: 14
+ LOG  [WORKLET onUpdate] event.x: 81.78666305541992 newPosition: 81.78666305541992 thumbPosition.value: 50.21333567301431
+ LOG  [WORKLET onUpdate] Calculated newValue: 23
+ LOG  [Slider updateLocalValue] Setting localValue to: 23
+ LOG  [WORKLET onUpdate] event.x: 52.21333312988281 newPosition: 52.21333312988281 thumbPosition.value: 81.78666305541992
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 84.45333353678384 newPosition: 84.45333353678384 thumbPosition.value: 52.21333312988281
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 54.546669006347656 newPosition: 54.546669006347656 thumbPosition.value: 84.45333353678384
+ LOG  [WORKLET onUpdate] Calculated newValue: 15
+ LOG  [Slider updateLocalValue] Setting localValue to: 15
+ LOG  [WORKLET onUpdate] event.x: 86.78666432698566 newPosition: 86.78666432698566 thumbPosition.value: 54.546669006347656
+ LOG  [WORKLET onUpdate] Calculated newValue: 24
+ LOG  [Slider updateLocalValue] Setting localValue to: 24
+ LOG  [WORKLET onUpdate] event.x: 56.54666646321613 newPosition: 56.54666646321613 thumbPosition.value: 86.78666432698566
+ LOG  [WORKLET onUpdate] Calculated newValue: 16
+ LOG  [Slider updateLocalValue] Setting localValue to: 16
+ LOG  [WORKLET onUpdate] event.x: 88.78666814168292 newPosition: 88.78666814168292 thumbPosition.value: 56.54666646321613
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 60.54666646321613 newPosition: 60.54666646321613 thumbPosition.value: 88.78666814168292
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 90.78666814168292 newPosition: 90.78666814168292 thumbPosition.value: 60.54666646321613
+ LOG  [WORKLET onUpdate] Calculated newValue: 25
+ LOG  [Slider updateLocalValue] Setting localValue to: 25
+ LOG  [WORKLET onUpdate] event.x: 62.21333312988281 newPosition: 62.21333312988281 thumbPosition.value: 90.78666814168292
+ LOG  [WORKLET onUpdate] Calculated newValue: 17
+ LOG  [Slider updateLocalValue] Setting localValue to: 17
+ LOG  [WORKLET onUpdate] event.x: 92.78666687011719 newPosition: 92.78666687011719 thumbPosition.value: 62.21333312988281
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 64.21333312988281 newPosition: 64.21333312988281 thumbPosition.value: 92.78666687011719
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 94.78666687011719 newPosition: 94.78666687011719 thumbPosition.value: 64.21333312988281
+ LOG  [WORKLET onUpdate] Calculated newValue: 26
+ LOG  [Slider updateLocalValue] Setting localValue to: 26
+ LOG  [WORKLET onUpdate] event.x: 66.21333312988281 newPosition: 66.21333312988281 thumbPosition.value: 94.78666687011719
+ LOG  [WORKLET onUpdate] Calculated newValue: 18
+ LOG  [Slider updateLocalValue] Setting localValue to: 18
+ LOG  [WORKLET onUpdate] event.x: 96.45333353678384 newPosition: 96.45333353678384 thumbPosition.value: 66.21333312988281
+ LOG  [WORKLET onUpdate] Calculated newValue: 27
+ LOG  [Slider updateLocalValue] Setting localValue to: 27
+ LOG  [WORKLET onUpdate] event.x: 67.88000233968097 newPosition: 67.88000233968097 thumbPosition.value: 96.45333353678384
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 97.78666559855142 newPosition: 97.78666559855142 thumbPosition.value: 67.88000233968097
+ LOG  [WORKLET onUpdate] Calculated newValue: 27
+ LOG  [Slider updateLocalValue] Setting localValue to: 27
+ LOG  [WORKLET onUpdate] event.x: 69.21333312988281 newPosition: 69.21333312988281 thumbPosition.value: 97.78666559855142
+ LOG  [WORKLET onUpdate] Calculated newValue: 19
+ LOG  [Slider updateLocalValue] Setting localValue to: 19
+ LOG  [WORKLET onUpdate] event.x: 99.1200002034505 newPosition: 99.1200002034505 thumbPosition.value: 69.21333312988281
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 70.54666392008463 newPosition: 70.54666392008463 thumbPosition.value: 99.1200002034505
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 100.12000147501627 newPosition: 100.12000147501627 thumbPosition.value: 70.54666392008463
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 71.54666392008463 newPosition: 71.54666392008463 thumbPosition.value: 100.12000147501627
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 101.45333480834961 newPosition: 101.45333480834961 thumbPosition.value: 71.54666392008463
+ LOG  [WORKLET onUpdate] Calculated newValue: 28
+ LOG  [Slider updateLocalValue] Setting localValue to: 28
+ LOG  [WORKLET onUpdate] event.x: 72.54666137695312 newPosition: 72.54666137695312 thumbPosition.value: 101.45333480834961
+ LOG  [WORKLET onUpdate] Calculated newValue: 20
+ LOG  [Slider updateLocalValue] Setting localValue to: 20
+ LOG  [WORKLET onUpdate] event.x: 102.45333862304688 newPosition: 102.45333862304688 thumbPosition.value: 72.54666137695312
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 73.54666137695312 newPosition: 73.54666137695312 thumbPosition.value: 102.45333862304688
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 103.45333862304688 newPosition: 103.45333862304688 thumbPosition.value: 73.54666137695312
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 74.54666137695312 newPosition: 74.54666137695312 thumbPosition.value: 103.45333862304688
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 104.78667195638019 newPosition: 104.78667195638019 thumbPosition.value: 74.54666137695312
+ LOG  [WORKLET onUpdate] Calculated newValue: 29
+ LOG  [Slider updateLocalValue] Setting localValue to: 29
+ LOG  [WORKLET onUpdate] event.x: 75.87999216715494 newPosition: 75.87999216715494 thumbPosition.value: 104.78667195638019
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 105.78667322794595 newPosition: 105.78667322794595 thumbPosition.value: 75.87999216715494
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onUpdate] event.x: 76.87999216715494 newPosition: 76.87999216715494 thumbPosition.value: 105.78667322794595
+ LOG  [WORKLET onUpdate] Calculated newValue: 21
+ LOG  [Slider updateLocalValue] Setting localValue to: 21
+ LOG  [WORKLET onUpdate] event.x: 106.78667322794595 newPosition: 106.78667322794595 thumbPosition.value: 76.87999216715494
+ LOG  [WORKLET onUpdate] Calculated newValue: 30
+ LOG  [Slider updateLocalValue] Setting localValue to: 30
+ LOG  [WORKLET onEnd] Starting - thumbPosition.value: 106.78667322794595
+ LOG  [WORKLET onEnd] Calculated finalValue: 30
+ LOG  [WORKLET onEnd] Springing to finalPosition: 107.39999999999999
+ LOG  [WORKLET onEnd] Setting isDragging = false
+ LOG  [WORKLET onEnd] Calling onDragEnd with finalValue: 30
+ LOG  [Slider onDragEnd] Calling parent onChange with finalValue: 30
+ LOG  [LoggerScreen handleWeightChange] START - criteriaId: smoothness newWeight: 30
+ LOG  [LoggerScreen handleWeightChange] Current criteriaWeights: {"airtime": 13, "inversions": 13, "smoothness": 14, "speed": 13, "theming": 13, "thrill": 34}
+ LOG  [LoggerScreen handleWeightChange] Locked criteria: []
+ LOG  [LoggerScreen handleWeightChange] Other unlocked: ["thrill", "airtime", "theming", "inversions", "speed"]
+ LOG  [LoggerScreen handleWeightChange] Locked total: 0
+ LOG  [LoggerScreen handleWeightChange] Max allowed: 100 Constrained weight: 30
+ LOG  [LoggerScreen handleWeightChange] Distributing remaining: 70 Per criteria: 14
+ LOG  [LoggerScreen handleWeightChange] NEW WEIGHTS: {"airtime": 14, "inversions": 14, "smoothness": 30, "speed": 14, "theming": 14, "thrill": 14}
+ LOG  [LoggerScreen handleWeightChange] Calling setCriteriaWeights
+ LOG  [LoggerScreen handleWeightChange] END
+ LOG  [Slider onDragEnd] Parent onChange returned
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 14 label: ⚡ Thrill/Intensity
+ LOG  [Slider useEffect] Triggered - value: 14 localValue: 34 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 50.120000000000005
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 30 label: ✨ Smoothness
+ LOG  [Slider useEffect] Triggered - value: 30 localValue: 30 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 107.39999999999999
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 14 label: ☁️ Airtime
+ LOG  [Slider useEffect] Triggered - value: 14 localValue: 13 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 50.120000000000005
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 14 label: 🎨 Theming
+ LOG  [Slider useEffect] Triggered - value: 14 localValue: 13 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 50.120000000000005
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 14 label: 🔄 Inversions
+ LOG  [Slider useEffect] Triggered - value: 14 localValue: 13 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 50.120000000000005
+ LOG  [Slider VALUE PROP CHANGED] New value from parent: 14 label: 💨 Speed
+ LOG  [Slider useEffect] Triggered - value: 14 localValue: 13 isDragging: false
+ LOG  [Slider useEffect] NOT DRAGGING - will update position
+ LOG  [Slider useEffect] Springing thumbPosition to: 50.120000000000005
+
+

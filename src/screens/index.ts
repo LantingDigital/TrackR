@@ -13,3 +13,9 @@ export { MoreScreen } from './MoreScreen';
 export { LoggerScreen } from './LoggerScreen';
 export { WalletScreen } from './WalletScreen';
 export { GamesHubScreen } from './GamesHubScreen';
+
+// Game Screens
+export { CoastleGameScreen } from './CoastleGameScreen';
+export { TriviaGameScreen } from './TriviaGameScreen';
+export { TradingCardGameScreen } from './TradingCardGameScreen';
+export { BlackjackGameScreen } from './BlackjackGameScreen';
