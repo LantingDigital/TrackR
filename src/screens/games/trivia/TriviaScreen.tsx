@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   Modal,
   Dimensions,
+  ActivityIndicator,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import Animated, { SlideInDown } from 'react-native-reanimated';
@@ -37,6 +38,7 @@ export const TriviaScreen: React.FC = () => {
   const [game, setGame] = useState<TriviaGame>(() => generateNewGame());
   const [phase, setPhase] = useState<GamePhase>('countdown');
   const [showExitModal, setShowExitModal] = useState(false);
+  const [allowExit, setAllowExit] = useState(false); // Flag to allow navigation without interception
 
   // Handle answer submission
   const handleAnswer = (selectedIndex: number, timeRemaining: number) => {
@@ -75,10 +77,10 @@ export const TriviaScreen: React.FC = () => {
   const handleConfirmExit = () => {
     trigger(HapticType.SELECTION);
     setShowExitModal(false);
-    // Change phase to allow navigation
-    setPhase('results');
-    // Then navigate back
-    setTimeout(() => navigation.goBack(), 0);
+    // Wait for modal fade-out animation to complete (300ms), then navigate
+    setTimeout(() => {
+      setAllowExit(true);
+    }, 300);
   };
 
   // Handle cancel exit
@@ -92,6 +94,11 @@ export const TriviaScreen: React.FC = () => {
     // Only intercept during countdown and playing phases
     if (phase === 'countdown' || phase === 'playing') {
       const unsubscribe = navigation.addListener('beforeRemove', (e) => {
+        // If user confirmed exit, allow navigation to proceed
+        if (allowExit) {
+          return; // Don't prevent, allow navigation
+        }
+
         // Prevent default behavior
         e.preventDefault();
 
@@ -101,7 +108,14 @@ export const TriviaScreen: React.FC = () => {
 
       return unsubscribe;
     }
-  }, [navigation, phase]);
+  }, [navigation, phase, allowExit]);
+
+  // Navigate back when allowExit flag is set
+  useEffect(() => {
+    if (allowExit) {
+      navigation.goBack();
+    }
+  }, [allowExit, navigation]);
 
   // Get current question
   const currentQuestion = getCurrentQuestion(game);
@@ -175,7 +189,7 @@ export const TriviaScreen: React.FC = () => {
         onRequestClose={handleCancelExit}
       >
         <View style={styles.modalOverlay}>
-          <Animated.View entering={SlideInDown.springify().damping(50).stiffness(200)}>
+          <Animated.View entering={SlideInDown.springify().damping(15).stiffness(150).mass(0.8)}>
             <Card
               variant="elevated"
               style={[

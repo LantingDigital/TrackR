@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, Pressable, TouchableOpacity, Modal, Dimensions } from 'react-native';
+import { View, StyleSheet, Pressable, TouchableOpacity, Modal, Dimensions, ActivityIndicator } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import Animated, { SlideInDown } from 'react-native-reanimated';
 import { Text, Card } from '@/components/base';
@@ -32,6 +32,7 @@ export const HigherLowerScreen: React.FC = () => {
   const [gameState, setGameState] = useState<GameState>(() => createInitialGameState());
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
+  const [allowExit, setAllowExit] = useState(false);
 
   // Persistent stats (would use AsyncStorage in production)
   const [gameStats, setGameStats] = useState<GameStats>({
@@ -112,7 +113,10 @@ export const HigherLowerScreen: React.FC = () => {
   const handleConfirmExit = () => {
     trigger(HapticType.SELECTION);
     setShowExitModal(false);
-    setTimeout(() => navigation.goBack(), 0);
+    // Wait for modal fade-out animation to complete (300ms), then navigate
+    setTimeout(() => {
+      setAllowExit(true);
+    }, 300);
   };
 
   // Handle cancel exit
@@ -120,6 +124,32 @@ export const HigherLowerScreen: React.FC = () => {
     trigger(HapticType.SELECTION);
     setShowExitModal(false);
   };
+
+  // Prevent back navigation during active game
+  useEffect(() => {
+    const unsubscribe = navigation?.addListener('beforeRemove', (e: any) => {
+      if (allowExit) {
+        return; // Don't prevent, allow navigation
+      }
+
+      if (gameState.gameOver) {
+        return; // Allow navigation if game is over
+      }
+
+      // Prevent navigation and show exit modal
+      e.preventDefault();
+      setShowExitModal(true);
+    });
+
+    return unsubscribe;
+  }, [navigation, gameState.gameOver, allowExit]);
+
+  // Navigate back when allowExit flag is set
+  useEffect(() => {
+    if (allowExit) {
+      navigation.goBack();
+    }
+  }, [allowExit, navigation]);
 
   const statIcon = getStatIcon(gameState.currentStat);
   const statLabel = getStatLabel(gameState.currentStat);
@@ -262,7 +292,7 @@ export const HigherLowerScreen: React.FC = () => {
         onRequestClose={handleCancelExit}
       >
         <View style={styles.modalOverlay}>
-          <Animated.View entering={SlideInDown.springify().damping(50).stiffness(200)}>
+          <Animated.View entering={SlideInDown.springify().damping(15).stiffness(150).mass(0.8)}>
             <Card
               variant="elevated"
               style={[

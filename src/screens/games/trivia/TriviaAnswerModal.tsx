@@ -82,7 +82,7 @@ export const TriviaAnswerModal: React.FC<TriviaAnswerModalProps> = ({
       onRequestClose={handleNext}
     >
       <View style={styles.overlay}>
-        <Animated.View entering={SlideInDown.springify().damping(50).stiffness(200)}>
+        <Animated.View entering={SlideInDown.springify().damping(15).stiffness(150).mass(0.8)}>
           <Card
             variant="elevated"
             style={[

@@ -13,6 +13,7 @@ import {
   SafeAreaView,
   Dimensions,
   Modal,
+  ActivityIndicator,
 } from 'react-native';
 import Animated, {
   useSharedValue,
@@ -139,6 +140,7 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
   const [isAnimating, setIsAnimating] = useState(false);
   const [currentAttemptPage, setCurrentAttemptPage] = useState(0);
   const [showExitModal, setShowExitModal] = useState(false);
+  const [allowExit, setAllowExit] = useState(false);
 
   // Ref for horizontal scroll
   const scrollViewRef = useRef<ScrollView>(null);
@@ -335,11 +337,10 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
   const handleConfirmExit = () => {
     trigger(HapticType.SELECTION);
     setShowExitModal(false);
+    // Wait for modal fade-out animation to complete (300ms), then navigate
     setTimeout(() => {
-      if (navigation) {
-        navigation.goBack();
-      }
-    }, 0);
+      setAllowExit(true);
+    }, 300);
   };
 
   // Handle cancel exit
@@ -361,6 +362,32 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
       trigger(HapticType.SELECTION);
     }
   };
+
+  // Prevent back navigation during active game
+  useEffect(() => {
+    const unsubscribe = navigation?.addListener('beforeRemove', (e: any) => {
+      if (allowExit) {
+        return; // Don't prevent, allow navigation
+      }
+
+      if (gameState.status !== GameStatus.IN_PROGRESS) {
+        return; // Allow navigation if game is over
+      }
+
+      // Prevent navigation and show exit modal
+      e.preventDefault();
+      setShowExitModal(true);
+    });
+
+    return unsubscribe;
+  }, [navigation, gameState.status, allowExit]);
+
+  // Navigate back when allowExit flag is set
+  useEffect(() => {
+    if (allowExit) {
+      navigation?.goBack();
+    }
+  }, [allowExit, navigation]);
 
   return (
     <SafeAreaView
@@ -648,7 +675,7 @@ export const CoastleScreen: React.FC<CoastleScreenProps> = ({
           onRequestClose={handleCancelExit}
         >
           <View style={styles.modalOverlay}>
-            <Animated.View entering={SlideInDown.springify().damping(50).stiffness(200)}>
+            <Animated.View entering={SlideInDown.springify().damping(15).stiffness(150).mass(0.8)}>
               <Card
                 variant="elevated"
                 style={[

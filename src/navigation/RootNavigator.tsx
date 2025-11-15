@@ -89,14 +89,26 @@ export const RootNavigator: React.FC = () => {
         name="GamesHub"
         component={GamesHubScreen}
         options={({ navigation }) => ({
-          ...modalOptions,
+          headerShown: true,
           title: 'MINIGAMES',
-          presentation: 'fullScreenModal',
+          presentation: 'card', // Card presentation for horizontal slide animation
+          animation: 'slide_from_right', // Faster animation
+          gestureEnabled: true, // Enable swipe gestures
+          gestureDirection: 'horizontal', // Horizontal swipe to go back (left direction)
+          fullScreenGestureEnabled: false, // FALSE = Only left edge (~10%), not full screen
+          headerStyle: {
+            backgroundColor: theme.colors.background.secondary,
+          },
           headerTitleStyle: {
             ...theme.typography.title3,
             color: theme.colors.text.primary,
             fontWeight: '700',
             letterSpacing: 1,
+          },
+          headerShadowVisible: false,
+          headerBackTitleVisible: false,
+          contentStyle: {
+            backgroundColor: theme.colors.background.primary,
           },
           headerLeft: () => (
             <TouchableOpacity

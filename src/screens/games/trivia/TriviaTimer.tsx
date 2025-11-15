@@ -91,15 +91,17 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
     if (previousDisplayTime !== displayTime) {
       if (displayTime === 3 || displayTime === 2 || displayTime === 1) {
         if (!reducedMotion) {
+          // Precise timing control: default to DOWN (1), pulse UP-DOWN quickly
+          scale.value = 1; // Ensure we start from normal state
           scale.value = withSequence(
-            withSpring(1.1, theme.springs.snappy),
-            withSpring(1, theme.springs.snappy)
+            withTiming(1.1, { duration: 100, easing: Easing.out(Easing.ease) }), // Quick up
+            withTiming(1, { duration: 100, easing: Easing.in(Easing.ease) })    // Quick down
           );
         }
       }
       setPreviousDisplayTime(displayTime);
     }
-  }, [displayTime, previousDisplayTime, reducedMotion, scale, theme.springs]);
+  }, [displayTime, previousDisplayTime, reducedMotion, scale]);
 
   // Animate countdown
   useEffect(() => {
@@ -137,10 +139,10 @@ export const TriviaTimer: React.FC<TriviaTimerProps> = ({
         withDelay(
           drawDuration,
           withSequence(
-            // Very quick pulse up - super snappy
-            withSpring(1.08, { damping: 12, stiffness: 500, mass: 0.5 }),
-            // Back to normal very quickly
-            withSpring(1, { damping: 12, stiffness: 500, mass: 0.5 })
+            // Very quick pulse up - precise timing for instant pop
+            withTiming(1.08, { duration: 100, easing: Easing.out(Easing.ease) }),
+            // Back to normal immediately
+            withTiming(1, { duration: 100, easing: Easing.in(Easing.ease) })
           )
         )
       );
