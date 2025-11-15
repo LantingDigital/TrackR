@@ -36,7 +36,7 @@ export const CoastleSearch: React.FC<CoastleSearchProps> = ({
   onSelect,
   disabled = false,
   placeholder = 'Type coaster name...',
-  autoFocus = true,
+  autoFocus = false,
 }) => {
   const theme = useTheme();
   const { trigger } = useHaptic();
@@ -128,7 +128,7 @@ export const CoastleSearch: React.FC<CoastleSearchProps> = ({
         >
           <ScrollView
             style={styles.resultsList}
-            keyboardShouldPersistTaps="handled"
+            keyboardShouldPersistTaps="always"
             showsVerticalScrollIndicator={true}
           >
             {results.map((coaster) => (
