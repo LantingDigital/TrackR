@@ -3,9 +3,8 @@
  * Central hub for collection, battle, and pack opening
  */
 
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, ScrollView, Pressable, Alert, TouchableOpacity, Modal, Dimensions, ActivityIndicator } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import React, { useState } from 'react';
+import { View, StyleSheet, ScrollView, Pressable, Alert, TouchableOpacity, Modal, Dimensions } from 'react-native';
 import Animated, { SlideInDown } from 'react-native-reanimated';
 import { Text, Button, Card } from '@/components/base';
 import { useTheme, useHaptic, HapticType } from '@/hooks';
@@ -26,7 +25,6 @@ type ScreenState = 'hub' | 'collection' | 'deck_builder' | 'battle' | 'pack_open
 export const TradingCardScreen: React.FC<TradingCardScreenProps> = ({ onClose }) => {
   const theme = useTheme();
   const { trigger } = useHaptic();
-  const navigation = useNavigation();
 
   // Player state (in real app, this would come from context/storage)
   const [userCards, setUserCards] = useState<CoasterCard[]>(getStarterCards());
@@ -36,7 +34,6 @@ export const TradingCardScreen: React.FC<TradingCardScreenProps> = ({ onClose })
   const [opponentDeck, setOpponentDeck] = useState<CoasterCard[]>([]);
   const [screenState, setScreenState] = useState<ScreenState>('hub');
   const [showExitModal, setShowExitModal] = useState(false);
-  const [allowExit, setAllowExit] = useState(false);
 
   // Calculate stats
   const totalCards = ALL_CARDS.length;
@@ -132,10 +129,7 @@ export const TradingCardScreen: React.FC<TradingCardScreenProps> = ({ onClose })
   const handleConfirmExit = () => {
     trigger(HapticType.SELECTION);
     setShowExitModal(false);
-    // Wait for modal fade-out animation to complete (300ms), then navigate
-    setTimeout(() => {
-      setAllowExit(true);
-    }, 300);
+    setTimeout(() => onClose(), 0);
   };
 
   // Handle cancel exit
@@ -143,28 +137,6 @@ export const TradingCardScreen: React.FC<TradingCardScreenProps> = ({ onClose })
     trigger(HapticType.SELECTION);
     setShowExitModal(false);
   };
-
-  // Prevent back navigation during active game
-  useEffect(() => {
-    const unsubscribe = navigation?.addListener('beforeRemove', (e: any) => {
-      if (allowExit) {
-        return; // Don't prevent, allow navigation
-      }
-
-      // Prevent navigation and show exit modal
-      e.preventDefault();
-      setShowExitModal(true);
-    });
-
-    return unsubscribe;
-  }, [navigation, allowExit]);
-
-  // Navigate back when allowExit flag is set
-  useEffect(() => {
-    if (allowExit) {
-      onClose();
-    }
-  }, [allowExit, onClose]);
 
   // Render different screens
   if (screenState === 'collection') {
@@ -494,7 +466,7 @@ export const TradingCardScreen: React.FC<TradingCardScreenProps> = ({ onClose })
         onRequestClose={handleCancelExit}
       >
         <View style={styles.modalOverlay}>
-          <Animated.View entering={SlideInDown.springify().damping(15).stiffness(150).mass(0.8)}>
+          <Animated.View entering={SlideInDown.springify().damping(17).stiffness(135)}>
             <Card
               variant="elevated"
               style={[

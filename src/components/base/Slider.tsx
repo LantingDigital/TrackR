@@ -155,7 +155,9 @@ export const Slider: React.FC<SliderProps> = ({
   // Pan gesture - runs entirely on UI thread as worklet
   const panGesture = Gesture.Pan()
     .enabled(!isEffectivelyDisabled && !locked)
-    .minDistance(0) // Activate immediately on touch
+    .minDistance(10) // Require 10px movement to activate (prevents scroll conflicts)
+    .activeOffsetX([-10, 10]) // Activate on horizontal movement
+    .failOffsetY([-15, 15]) // Fail if vertical movement exceeds 15px (allows scroll)
     .onBegin(() => {
       'worklet';
       // Set dragging flag IMMEDIATELY on UI thread (synchronous)
